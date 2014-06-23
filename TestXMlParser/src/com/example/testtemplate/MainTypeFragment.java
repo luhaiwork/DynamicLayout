@@ -16,6 +16,7 @@ import android.sax.Element;
 import android.sax.EndElementListener;
 import android.sax.EndTextElementListener;
 import android.sax.RootElement;
+import android.sax.StartElementListener;
 import android.sax.TextElementListener;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -77,14 +78,28 @@ public class MainTypeFragment extends Fragment {
 	private InputStream localDataXMLInputStream = null;
 	/** 表格列数 */
 	private int gridCount = 1;
+	/**grid 横向cell 间距*/
+	private int horizontalSpace=0;
+	/**grid 竖向cell 间距*/
+	private int verticalSpace=0;
+	private  List<String> viewPagerUrls=null;
 
 	/**
 	 * 初始化配置
 	 */
 	private void initConfigData() {
 		localDataXMLInputStream = getLocalDataXMLInputStream();
+		viewPagerUrls=new ArrayList<String>();
 		RootElement root = new RootElement("config");
 		Element childActivity = root.getChild("fragment");
+		Element elViewpagerItem = childActivity.getChild("viewpager-items");
+		Element ElImgViewUrl = elViewpagerItem.getChild("imageurl");
+		ElImgViewUrl.setEndTextElementListener(new EndTextElementListener() {
+			@Override
+			public void end(String body) {
+				viewPagerUrls.add(body);
+			}
+		});
 		Element elGridCount = childActivity.getChild("gridCount");
 		elGridCount.setTextElementListener(new TextElementListener() {
 			@Override
@@ -97,6 +112,13 @@ public class MainTypeFragment extends Fragment {
 			}
 		});
 		Element elGridItems = childActivity.getChild("grid-items");
+		elGridItems.setStartElementListener(new StartElementListener() {
+			@Override
+			public void start(Attributes attributes) {
+				horizontalSpace=Integer.parseInt(attributes.getValue("horizontalSpace"));
+				verticalSpace=Integer.parseInt(attributes.getValue("verticalSpace"));
+			}
+		});
 		datalist = new ArrayList<Type2GridBean>();
 		Element elGridItem = elGridItems.getChild("item");
 		final Type2GridBean type2GridBean = new Type2GridBean();
@@ -171,9 +193,11 @@ public class MainTypeFragment extends Fragment {
 
 	private void initViewPager() {
 		pageViewList = new ArrayList<View>();
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < viewPagerUrls.size(); i++) {
 			View inflate = getActivity().getLayoutInflater().inflate(
 					R.layout.viewpager_item, null);
+			ImageView imgView = (ImageView) inflate.findViewById(R.id.img_viewpage);
+			imgView.setImageResource(ResourceTools.getResourceFromId(getActivity(), ResourceTypeEnum.TYPE_DRAWABLE, viewPagerUrls.get(i)));
 			pageViewList.add(inflate);
 		}
 		MyPageAdapter adp = new MyPageAdapter();
@@ -183,6 +207,8 @@ public class MainTypeFragment extends Fragment {
 	private void initGridView() {
 		gv_test.setAdapter(new MyAdapter());
 		gv_test.setNumColumns(gridCount);
+		gv_test.setVerticalSpacing(MeasureUtil.dpToPx(getActivity(), verticalSpace));
+		gv_test.setHorizontalSpacing(MeasureUtil.dpToPx(getActivity(), horizontalSpace));
 	}
 
 	@Override

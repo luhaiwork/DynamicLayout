@@ -8,11 +8,10 @@
         <mode>1</mode>
         <gridCount>1</gridCount>
         <viewpager-items>
-            <item>
-                <imageurl></imageurl>
-            </item>
+                <imageurl>welcome1</imageurl>
+                <imageurl>welcome2</imageurl>
         </viewpager-items>
-        <grid-items>
+        <grid-items horizontalSpace="10" verticalSpace="10">
             <item>
                 <imageurl>http://www.baidu.com/img/bdlogo.gif</imageurl>
                 <imageHeight>100</imageHeight>
