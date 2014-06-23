@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testtemplate.MainActivity" >
+
+    <item
+        android:id="@+id/action_mode1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="样式1"/>
+    <item
+        android:id="@+id/action_mode2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="样式2"/>
+
+</menu>
