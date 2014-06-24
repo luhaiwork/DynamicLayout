@@ -13,7 +13,6 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.sax.Element;
@@ -21,7 +20,6 @@ import android.sax.RootElement;
 import android.sax.StartElementListener;
 import android.sax.TextElementListener;
 import android.support.v4.app.Fragment;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.Xml;
 import android.view.LayoutInflater;
@@ -40,13 +38,12 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.testtemplate.bean.GridBean;
 import com.example.testtemplate.system.MeasureUtil;
 
-public class PlaceholderFragment extends Fragment {
+public class PlaceholderFragment extends Fragment{
 	private GridView gv_test;
 	private LinearLayout ll_bottom;
 	private List<GridBean> datalist;
@@ -151,21 +148,21 @@ public class PlaceholderFragment extends Fragment {
 			IOException {
 		testConfigRead = new MyPageConfig();
 		localDataXMLInputStream = getLocalDataXMLInputStream();
-		// ��ʽһ:ʹ�ù�����XmlPullParserFactory
+		// 方式一:使用工厂类XmlPullParserFactory
 		XmlPullParserFactory pullFactory = XmlPullParserFactory.newInstance();
 		XmlPullParser parser = pullFactory.newPullParser();
 		parser.setInput(localDataXMLInputStream, "UTF-8");
 		int eventType = parser.getEventType();
-		// ֻҪ�����ĵ������¼�����һֱѭ��
+		// 只要不是文档结束事件，就一直循环
 		String actName = null;
 		while (eventType != XmlPullParser.END_DOCUMENT) {
 			String name = parser.getName();
 			switch (eventType) {
-			// ������ʼ�ĵ��¼�
+			// 触发开始文档事件
 			case XmlPullParser.START_DOCUMENT:
 
 				break;
-			// ������ʼԪ���¼�
+			// 触发开始元素事件
 			case XmlPullParser.START_TAG:
 				if ("activity".equals(name)) {
 					for (int i = 0; i < parser.getAttributeCount(); i++) {
@@ -175,7 +172,7 @@ public class PlaceholderFragment extends Fragment {
 					}
 					Log.i("tag", "actName:" + actName);
 				}
-				// ����testpage ��act����
+				// 解析testpage 的act配置
 				if ("testpage".equals(actName) && "showMenu".equals(name)) {
 					String isShow = "";
 					for (int i = 0; i < parser.getAttributeCount(); i++) {
@@ -186,7 +183,7 @@ public class PlaceholderFragment extends Fragment {
 					testConfigRead.setShow(Boolean.parseBoolean(isShow));
 					Log.i("tag", "showMenu:" + isShow);
 				}
-				// ����testpage ��act���� mode
+				// 解析testpage 的act配置 mode
 				if ("testpage".equals(actName) && "mode".equals(name)) {
 					String mode = "";
 					for (int i = 0; i < parser.getAttributeCount(); i++) {
@@ -201,7 +198,7 @@ public class PlaceholderFragment extends Fragment {
 			case XmlPullParser.TEXT:
 				Log.i("tag", "name:" + name + "text:" + parser.getText());
 				break;
-			// ��������Ԫ���¼�
+			// 触发结束元素事件
 			case XmlPullParser.END_TAG:
 				if ("activity".equals(name)) {
 					actName = null;
@@ -250,7 +247,7 @@ public class PlaceholderFragment extends Fragment {
 	}
 
 	/**
-	 * ���
+	 * 跳过
 	 * 
 	 * @param parser
 	 * @throws XmlPullParserException
@@ -299,27 +296,27 @@ public class PlaceholderFragment extends Fragment {
 	private void getMode1Data() {
 		datalist = new ArrayList<GridBean>();
 		GridBean bean1 = new GridBean();
-		bean1.setText("���Ա���");
+		bean1.setText("测试标题");
 		bean1.setBackgroundColor(getResources().getColor(R.color.brown));
 		bean1.setDrawable(getResources().getDrawable(R.drawable.img1));
 		datalist.add(bean1);
 		GridBean bean2 = new GridBean();
-		bean2.setText("����sssssssss2");
+		bean2.setText("标题sssssssss2");
 		bean2.setBackgroundColor(getResources().getColor(R.color.black));
 		bean2.setDrawable(getResources().getDrawable(R.drawable.img2));
 		datalist.add(bean2);
 		GridBean bean3 = new GridBean();
-		bean3.setText("��ͬ���ȵı���");
+		bean3.setText("不同长度的标题");
 		bean3.setBackgroundColor(getResources().getColor(R.color.red));
 		bean3.setDrawable(getResources().getDrawable(R.drawable.img3));
 		datalist.add(bean3);
 		GridBean bean4 = new GridBean();
-		bean4.setText("��");
+		bean4.setText("短");
 		bean4.setBackgroundColor(getResources().getColor(R.color.gray));
 		bean4.setDrawable(getResources().getDrawable(R.drawable.img4));
 		datalist.add(bean4);
 		GridBean bean5 = new GridBean();
-		bean5.setText("�̳����̰��̣����Է�ʽ������ʡ�Ͷ�����ʱ�����˼��ֿ���˹���");
+		bean5.setText("短长长短啊短，测试方式来看待福建省劳动纠纷时看到了几分克里斯多夫");
 		bean5.setBackgroundColor(getResources().getColor(R.color.brown));
 		bean5.setDrawable(getResources().getDrawable(R.drawable.img5));
 		datalist.add(bean5);

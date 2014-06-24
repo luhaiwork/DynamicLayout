@@ -17,7 +17,7 @@ public class MainActivity extends FragmentActivity {
 		setContentView(R.layout.activity_main);
 		if (savedInstanceState == null) {
 			PlaceholderFragment placeholderFragment2 = new PlaceholderFragment();
-			getSupportFragmentManager().beginTransaction().add(R.id.container, placeholderFragment2, "tag");
+			getSupportFragmentManager().beginTransaction().add(R.id.container, placeholderFragment2, "tag").commit();
 		}
 
 	}
