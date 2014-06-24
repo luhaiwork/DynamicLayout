@@ -1,46 +1,63 @@
 package com.example.testtemplate.bean;
 
-import android.graphics.drawable.Drawable;
+public class GridBean implements Cloneable {
+	public enum ViewType {
+		VIEW_TYPE_0, VIEW_TYPE_01;
+		public int getViewType() {
+			int viewType = -1;
+			switch (this) {
+			case VIEW_TYPE_0:
+				viewType = 0;
+				break;
+			case VIEW_TYPE_01:
+				viewType = 1;
+				break;
+			default:
+				break;
+			}
+			return viewType;
+		}
 
-public class GridBean  {
-	public static int VIEW_TYPE_01=1;
-	public static int VIEW_TYPE_02=2;
-	public static int VIEW_TYPE_03=3;
-	private Drawable drawable;
-	private String text;
-	private int textColor;
-	private int backgroundColor;
-	private int viewType;
-	public Drawable getDrawable() {
-		return drawable;
+		public static int getTotType() {
+			return ViewType.values().length;
+		}
 	}
-	public void setDrawable(Drawable drawable) {
-		this.drawable = drawable;
+
+	private int style;
+	private int image;
+	private String title;
+
+	public int getImage() {
+		return image;
 	}
-	public String getText() {
-		return text;
+
+	public void setImage(int image) {
+		this.image = image;
 	}
-	public void setText(String text) {
-		this.text = text;
+
+	public String getTitle() {
+		return title;
 	}
-	public int getTextColor() {
-		return textColor;
+
+	public void setTitle(String title) {
+		this.title = title;
 	}
-	public void setTextColor(int textColor) {
-		this.textColor = textColor;
+
+	public int getStyle() {
+		return style;
 	}
-	public int getBackgroundColor() {
-		return backgroundColor;
+
+	public void setStyle(int style) {
+		this.style = style;
 	}
-	public void setBackgroundColor(int backgroundColor) {
-		this.backgroundColor = backgroundColor;
+
+	public GridBean clone() {
+		try {
+			return (GridBean) super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
-	public int getViewType() {
-		return viewType;
-	}
-	public void setViewType(int viewType) {
-		this.viewType = viewType;
-	}
-	
-	
+
 }

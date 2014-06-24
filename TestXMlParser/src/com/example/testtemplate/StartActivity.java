@@ -75,10 +75,15 @@ public class StartActivity extends FragmentActivity {
 			ButterKnife.reset(this);
 			super.onDestroyView();
 		}
+		@OnClick(R.id.btn_show_type0)
+		public void btn_show_type0(Button btn_show_type0){
+			Intent newIntent = MainActivity.newIntent(getActivity(), "type2_page_config_01.xml");
+			getActivity().startActivity(newIntent);
+		}
 		@OnClick(R.id.btn_show_type1)
 		public void btn_show_type1(Button btn_show_type1){
-			Intent intent  = new Intent(getActivity(),MainActivity.class);
-			getActivity().startActivity(intent);
+			Intent newIntent = MainActivity.newIntent(getActivity(), "type2_page_config_02.xml");
+			getActivity().startActivity(newIntent);
 		}
 		@OnClick(R.id.btn_show_type2)
 		public void btn_show_type2(Button btn_show_type2){

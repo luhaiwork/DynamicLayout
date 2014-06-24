@@ -10,6 +10,11 @@
     tools:context="com.example.testtemplate.StartActivity$PlaceholderFragment" >
 
     <Button
+        android:id="@+id/btn_show_type0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_show type0" />
+    <Button
         android:id="@+id/btn_show_type1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

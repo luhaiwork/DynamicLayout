@@ -11,7 +11,7 @@
                 <imageurl>welcome1</imageurl>
                 <imageurl>welcome2</imageurl>
         </viewpager-items>
-        <grid-items horizontalSpace="0" verticalSpace="5">
+        <grid-items horizontalSpace="0" verticalSpace="20">
             <item>
                 <imageurl>http://www.baidu.com/img/bdlogo.gif</imageurl>
                 <imageHeight>30</imageHeight>
