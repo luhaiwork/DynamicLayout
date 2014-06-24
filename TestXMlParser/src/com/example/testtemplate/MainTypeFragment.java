@@ -68,7 +68,8 @@ public class MainTypeFragment extends Fragment {
 		AssetManager asset = getActivity().getAssets();
 		InputStream input = null;
 		try {
-			input = asset.open("page_config.xml");
+//			input = asset.open("page_config.xml");
+			input = asset.open(((MainTypeActivity)getActivity()).xmlName);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -274,7 +275,6 @@ public class MainTypeFragment extends Fragment {
 			layoutParams.width = MeasureUtil.dpToPx(getActivity(),
 					type2GridBean.getImageWidth());
 			img_test.setLayoutParams(layoutParams);
-			// Ҫ�Ƿ����²��֣����������ָ߶���ͼƬ�߶���ͬ
 			if (getItemViewType(position) != Type2GridBean.ViewType.VIEW_TYPE_0
 					.getViewType()) {
 				LayoutParams rlLayoutParams = rl_txt_bg.getLayoutParams();

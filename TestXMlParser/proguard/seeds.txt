@@ -10,13 +10,11 @@ android.support.v4.app.ActionBarDrawerToggle$1
 android.support.v4.app.ActionBarDrawerToggle$ActionBarDrawerToggleImpl
 android.support.v4.app.ActionBarDrawerToggle$ActionBarDrawerToggleImplBase
 android.support.v4.app.ActionBarDrawerToggle$ActionBarDrawerToggleImplHC
-android.support.v4.app.ActionBarDrawerToggle$ActionBarDrawerToggleImplJellybeanMR2
 android.support.v4.app.ActionBarDrawerToggle$Delegate
 android.support.v4.app.ActionBarDrawerToggle$DelegateProvider
 android.support.v4.app.ActionBarDrawerToggle$SlideDrawable
 android.support.v4.app.ActionBarDrawerToggleHoneycomb
 android.support.v4.app.ActionBarDrawerToggleHoneycomb$SetIndicatorInfo
-android.support.v4.app.ActionBarDrawerToggleJellybeanMR2
 android.support.v4.app.ActivityCompat
 android.support.v4.app.ActivityCompatHoneycomb
 android.support.v4.app.ActivityCompatJB
@@ -34,6 +32,7 @@ android.support.v4.app.Fragment$InstantiationException
 android.support.v4.app.Fragment$SavedState
 android.support.v4.app.Fragment$SavedState$1
 android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentActivity: FragmentActivity()
 android.support.v4.app.FragmentActivity$1
 android.support.v4.app.FragmentActivity$2
 android.support.v4.app.FragmentActivity$FragmentTag
@@ -82,12 +81,10 @@ android.support.v4.app.NotificationCompat$Builder
 android.support.v4.app.NotificationCompat$InboxStyle
 android.support.v4.app.NotificationCompat$NotificationCompatImpl
 android.support.v4.app.NotificationCompat$NotificationCompatImplBase
-android.support.v4.app.NotificationCompat$NotificationCompatImplGingerbread
 android.support.v4.app.NotificationCompat$NotificationCompatImplHoneycomb
 android.support.v4.app.NotificationCompat$NotificationCompatImplIceCreamSandwich
 android.support.v4.app.NotificationCompat$NotificationCompatImplJellybean
 android.support.v4.app.NotificationCompat$Style
-android.support.v4.app.NotificationCompatGingerbread
 android.support.v4.app.NotificationCompatHoneycomb
 android.support.v4.app.NotificationCompatIceCreamSandwich
 android.support.v4.app.NotificationCompatJellybean
@@ -204,9 +201,6 @@ android.support.v4.print.PrintHelper$PrintHelperStubImpl
 android.support.v4.print.PrintHelper$PrintHelperVersionImpl
 android.support.v4.print.PrintHelperKitkat
 android.support.v4.print.PrintHelperKitkat$1
-android.support.v4.print.PrintHelperKitkat$2
-android.support.v4.print.PrintHelperKitkat$2$1
-android.support.v4.print.PrintHelperKitkat$2$1$1
 android.support.v4.text.BidiFormatter
 android.support.v4.text.BidiFormatter$1
 android.support.v4.text.BidiFormatter$Builder
@@ -427,7 +421,6 @@ android.support.v4.widget.AutoScrollHelper
 android.support.v4.widget.AutoScrollHelper$1
 android.support.v4.widget.AutoScrollHelper$ClampedScroller
 android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable
-android.support.v4.widget.BakedBezierInterpolator
 android.support.v4.widget.ContentLoadingProgressBar
 android.support.v4.widget.ContentLoadingProgressBar$1
 android.support.v4.widget.ContentLoadingProgressBar$2
@@ -506,20 +499,811 @@ android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImpl
 android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImplBase
 android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImplJB
 android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImplJBMR1
-android.support.v4.widget.SwipeProgressBar
-android.support.v4.widget.SwipeRefreshLayout
-android.support.v4.widget.SwipeRefreshLayout$1
-android.support.v4.widget.SwipeRefreshLayout$2
-android.support.v4.widget.SwipeRefreshLayout$3
-android.support.v4.widget.SwipeRefreshLayout$4
-android.support.v4.widget.SwipeRefreshLayout$5
-android.support.v4.widget.SwipeRefreshLayout$6
-android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener
-android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener
 android.support.v4.widget.ViewDragHelper
 android.support.v4.widget.ViewDragHelper$1
 android.support.v4.widget.ViewDragHelper$2
 android.support.v4.widget.ViewDragHelper$Callback
+android.support.v7.app.ActionBar
+android.support.v7.app.ActionBar$Callback
+android.support.v7.app.ActionBar$LayoutParams
+android.support.v7.app.ActionBar$OnMenuVisibilityListener
+android.support.v7.app.ActionBar$OnNavigationListener
+android.support.v7.app.ActionBar$Tab
+android.support.v7.app.ActionBar$TabListener
+android.support.v7.app.ActionBarActivity
+android.support.v7.app.ActionBarActivityDelegate
+android.support.v7.app.ActionBarActivityDelegateBase
+android.support.v7.app.ActionBarActivityDelegateBase$1
+android.support.v7.app.ActionBarActivityDelegateBase$ActionBarDrawableToggleImpl
+android.support.v7.app.ActionBarActivityDelegateBase$ActionModeCallbackWrapper
+android.support.v7.app.ActionBarActivityDelegateHC
+android.support.v7.app.ActionBarActivityDelegateICS
+android.support.v7.app.ActionBarActivityDelegateICS$WindowCallbackWrapper
+android.support.v7.app.ActionBarActivityDelegateJB
+android.support.v7.app.ActionBarImplBase
+android.support.v7.app.ActionBarImplBase$ActionModeImpl
+android.support.v7.app.ActionBarImplBase$TabImpl
+android.support.v7.app.ActionBarImplHC
+android.support.v7.app.ActionBarImplHC$CallbackWrapper
+android.support.v7.app.ActionBarImplICS
+android.support.v7.app.ActionBarImplICS$OnMenuVisibilityListenerWrapper
+android.support.v7.app.ActionBarImplICS$OnNavigationListenerWrapper
+android.support.v7.app.ActionBarImplICS$TabWrapper
+android.support.v7.app.ActionBarImplJB
+android.support.v7.appcompat.R
+android.support.v7.appcompat.R: R()
+android.support.v7.appcompat.R$anim
+android.support.v7.appcompat.R$anim: int abc_fade_in
+android.support.v7.appcompat.R$anim: int abc_fade_out
+android.support.v7.appcompat.R$anim: int abc_slide_in_bottom
+android.support.v7.appcompat.R$anim: int abc_slide_in_top
+android.support.v7.appcompat.R$anim: int abc_slide_out_bottom
+android.support.v7.appcompat.R$anim: int abc_slide_out_top
+android.support.v7.appcompat.R$anim: R$anim()
+android.support.v7.appcompat.R$attr
+android.support.v7.appcompat.R$attr: int actionBarDivider
+android.support.v7.appcompat.R$attr: int actionBarItemBackground
+android.support.v7.appcompat.R$attr: int actionBarSize
+android.support.v7.appcompat.R$attr: int actionBarSplitStyle
+android.support.v7.appcompat.R$attr: int actionBarStyle
+android.support.v7.appcompat.R$attr: int actionBarTabBarStyle
+android.support.v7.appcompat.R$attr: int actionBarTabStyle
+android.support.v7.appcompat.R$attr: int actionBarTabTextStyle
+android.support.v7.appcompat.R$attr: int actionBarWidgetTheme
+android.support.v7.appcompat.R$attr: int actionButtonStyle
+android.support.v7.appcompat.R$attr: int actionDropDownStyle
+android.support.v7.appcompat.R$attr: int actionLayout
+android.support.v7.appcompat.R$attr: int actionMenuTextAppearance
+android.support.v7.appcompat.R$attr: int actionMenuTextColor
+android.support.v7.appcompat.R$attr: int actionModeBackground
+android.support.v7.appcompat.R$attr: int actionModeCloseButtonStyle
+android.support.v7.appcompat.R$attr: int actionModeCloseDrawable
+android.support.v7.appcompat.R$attr: int actionModeCopyDrawable
+android.support.v7.appcompat.R$attr: int actionModeCutDrawable
+android.support.v7.appcompat.R$attr: int actionModeFindDrawable
+android.support.v7.appcompat.R$attr: int actionModePasteDrawable
+android.support.v7.appcompat.R$attr: int actionModePopupWindowStyle
+android.support.v7.appcompat.R$attr: int actionModeSelectAllDrawable
+android.support.v7.appcompat.R$attr: int actionModeShareDrawable
+android.support.v7.appcompat.R$attr: int actionModeSplitBackground
+android.support.v7.appcompat.R$attr: int actionModeStyle
+android.support.v7.appcompat.R$attr: int actionModeWebSearchDrawable
+android.support.v7.appcompat.R$attr: int actionOverflowButtonStyle
+android.support.v7.appcompat.R$attr: int actionProviderClass
+android.support.v7.appcompat.R$attr: int actionViewClass
+android.support.v7.appcompat.R$attr: int activityChooserViewStyle
+android.support.v7.appcompat.R$attr: int background
+android.support.v7.appcompat.R$attr: int backgroundSplit
+android.support.v7.appcompat.R$attr: int backgroundStacked
+android.support.v7.appcompat.R$attr: int buttonBarButtonStyle
+android.support.v7.appcompat.R$attr: int buttonBarStyle
+android.support.v7.appcompat.R$attr: int customNavigationLayout
+android.support.v7.appcompat.R$attr: int disableChildrenWhenDisabled
+android.support.v7.appcompat.R$attr: int displayOptions
+android.support.v7.appcompat.R$attr: int divider
+android.support.v7.appcompat.R$attr: int dividerHorizontal
+android.support.v7.appcompat.R$attr: int dividerPadding
+android.support.v7.appcompat.R$attr: int dividerVertical
+android.support.v7.appcompat.R$attr: int dropDownListViewStyle
+android.support.v7.appcompat.R$attr: int dropdownListPreferredItemHeight
+android.support.v7.appcompat.R$attr: int expandActivityOverflowButtonDrawable
+android.support.v7.appcompat.R$attr: int height
+android.support.v7.appcompat.R$attr: int homeAsUpIndicator
+android.support.v7.appcompat.R$attr: int homeLayout
+android.support.v7.appcompat.R$attr: int icon
+android.support.v7.appcompat.R$attr: int iconifiedByDefault
+android.support.v7.appcompat.R$attr: int indeterminateProgressStyle
+android.support.v7.appcompat.R$attr: int initialActivityCount
+android.support.v7.appcompat.R$attr: int isLightTheme
+android.support.v7.appcompat.R$attr: int itemPadding
+android.support.v7.appcompat.R$attr: int listChoiceBackgroundIndicator
+android.support.v7.appcompat.R$attr: int listPopupWindowStyle
+android.support.v7.appcompat.R$attr: int listPreferredItemHeight
+android.support.v7.appcompat.R$attr: int listPreferredItemHeightLarge
+android.support.v7.appcompat.R$attr: int listPreferredItemHeightSmall
+android.support.v7.appcompat.R$attr: int listPreferredItemPaddingLeft
+android.support.v7.appcompat.R$attr: int listPreferredItemPaddingRight
+android.support.v7.appcompat.R$attr: int logo
+android.support.v7.appcompat.R$attr: int navigationMode
+android.support.v7.appcompat.R$attr: int paddingEnd
+android.support.v7.appcompat.R$attr: int paddingStart
+android.support.v7.appcompat.R$attr: int panelMenuListTheme
+android.support.v7.appcompat.R$attr: int panelMenuListWidth
+android.support.v7.appcompat.R$attr: int popupMenuStyle
+android.support.v7.appcompat.R$attr: int popupPromptView
+android.support.v7.appcompat.R$attr: int progressBarPadding
+android.support.v7.appcompat.R$attr: int progressBarStyle
+android.support.v7.appcompat.R$attr: int prompt
+android.support.v7.appcompat.R$attr: int queryHint
+android.support.v7.appcompat.R$attr: int searchDropdownBackground
+android.support.v7.appcompat.R$attr: int searchResultListItemHeight
+android.support.v7.appcompat.R$attr: int searchViewAutoCompleteTextView
+android.support.v7.appcompat.R$attr: int searchViewCloseIcon
+android.support.v7.appcompat.R$attr: int searchViewEditQuery
+android.support.v7.appcompat.R$attr: int searchViewEditQueryBackground
+android.support.v7.appcompat.R$attr: int searchViewGoIcon
+android.support.v7.appcompat.R$attr: int searchViewSearchIcon
+android.support.v7.appcompat.R$attr: int searchViewTextField
+android.support.v7.appcompat.R$attr: int searchViewTextFieldRight
+android.support.v7.appcompat.R$attr: int searchViewVoiceIcon
+android.support.v7.appcompat.R$attr: int selectableItemBackground
+android.support.v7.appcompat.R$attr: int showAsAction
+android.support.v7.appcompat.R$attr: int showDividers
+android.support.v7.appcompat.R$attr: int spinnerDropDownItemStyle
+android.support.v7.appcompat.R$attr: int spinnerMode
+android.support.v7.appcompat.R$attr: int spinnerStyle
+android.support.v7.appcompat.R$attr: int subtitle
+android.support.v7.appcompat.R$attr: int subtitleTextStyle
+android.support.v7.appcompat.R$attr: int textAllCaps
+android.support.v7.appcompat.R$attr: int textAppearanceLargePopupMenu
+android.support.v7.appcompat.R$attr: int textAppearanceListItem
+android.support.v7.appcompat.R$attr: int textAppearanceListItemSmall
+android.support.v7.appcompat.R$attr: int textAppearanceSearchResultSubtitle
+android.support.v7.appcompat.R$attr: int textAppearanceSearchResultTitle
+android.support.v7.appcompat.R$attr: int textAppearanceSmallPopupMenu
+android.support.v7.appcompat.R$attr: int textColorSearchUrl
+android.support.v7.appcompat.R$attr: int title
+android.support.v7.appcompat.R$attr: int titleTextStyle
+android.support.v7.appcompat.R$attr: int windowActionBar
+android.support.v7.appcompat.R$attr: int windowActionBarOverlay
+android.support.v7.appcompat.R$attr: int windowSplitActionBar
+android.support.v7.appcompat.R$attr: R$attr()
+android.support.v7.appcompat.R$bool
+android.support.v7.appcompat.R$bool: int abc_action_bar_embed_tabs_pre_jb
+android.support.v7.appcompat.R$bool: int abc_action_bar_expanded_action_views_exclusive
+android.support.v7.appcompat.R$bool: int abc_config_actionMenuItemAllCaps
+android.support.v7.appcompat.R$bool: int abc_config_allowActionMenuItemTextWithIcon
+android.support.v7.appcompat.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
+android.support.v7.appcompat.R$bool: int abc_split_action_bar_is_narrow
+android.support.v7.appcompat.R$bool: R$bool()
+android.support.v7.appcompat.R$color
+android.support.v7.appcompat.R$color: int abc_search_url_text_holo
+android.support.v7.appcompat.R$color: int abc_search_url_text_normal
+android.support.v7.appcompat.R$color: int abc_search_url_text_pressed
+android.support.v7.appcompat.R$color: int abc_search_url_text_selected
+android.support.v7.appcompat.R$color: R$color()
+android.support.v7.appcompat.R$dimen
+android.support.v7.appcompat.R$dimen: int abc_action_bar_default_height
+android.support.v7.appcompat.R$dimen: int abc_action_bar_icon_vertical_padding
+android.support.v7.appcompat.R$dimen: int abc_action_bar_progress_bar_size
+android.support.v7.appcompat.R$dimen: int abc_action_bar_stacked_max_height
+android.support.v7.appcompat.R$dimen: int abc_action_bar_stacked_tab_max_width
+android.support.v7.appcompat.R$dimen: int abc_action_bar_subtitle_bottom_margin
+android.support.v7.appcompat.R$dimen: int abc_action_bar_subtitle_text_size
+android.support.v7.appcompat.R$dimen: int abc_action_bar_subtitle_top_margin
+android.support.v7.appcompat.R$dimen: int abc_action_bar_title_text_size
+android.support.v7.appcompat.R$dimen: int abc_action_button_min_width
+android.support.v7.appcompat.R$dimen: int abc_config_prefDialogWidth
+android.support.v7.appcompat.R$dimen: int abc_dropdownitem_icon_width
+android.support.v7.appcompat.R$dimen: int abc_dropdownitem_text_padding_left
+android.support.v7.appcompat.R$dimen: int abc_dropdownitem_text_padding_right
+android.support.v7.appcompat.R$dimen: int abc_panel_menu_list_width
+android.support.v7.appcompat.R$dimen: int abc_search_view_preferred_width
+android.support.v7.appcompat.R$dimen: int abc_search_view_text_min_width
+android.support.v7.appcompat.R$dimen: R$dimen()
+android.support.v7.appcompat.R$drawable
+android.support.v7.appcompat.R$drawable: int abc_ab_bottom_solid_dark_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_bottom_solid_light_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_bottom_transparent_dark_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_bottom_transparent_light_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_share_pack_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_ab_share_pack_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ab_solid_dark_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_solid_light_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_stacked_solid_dark_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_stacked_solid_light_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_stacked_transparent_dark_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_stacked_transparent_light_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_transparent_dark_holo
+android.support.v7.appcompat.R$drawable: int abc_ab_transparent_light_holo
+android.support.v7.appcompat.R$drawable: int abc_cab_background_bottom_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_cab_background_bottom_holo_light
+android.support.v7.appcompat.R$drawable: int abc_cab_background_top_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_cab_background_top_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_ab_back_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_ic_ab_back_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_cab_done_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_ic_cab_done_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_clear
+android.support.v7.appcompat.R$drawable: int abc_ic_clear_disabled
+android.support.v7.appcompat.R$drawable: int abc_ic_clear_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_clear_normal
+android.support.v7.appcompat.R$drawable: int abc_ic_clear_search_api_disabled_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_clear_search_api_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_commit_search_api_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_ic_commit_search_api_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_go
+android.support.v7.appcompat.R$drawable: int abc_ic_go_search_api_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_menu_moreoverflow_normal_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_ic_menu_moreoverflow_normal_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_menu_share_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_ic_menu_share_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_search
+android.support.v7.appcompat.R$drawable: int abc_ic_search_api_holo_light
+android.support.v7.appcompat.R$drawable: int abc_ic_voice_search
+android.support.v7.appcompat.R$drawable: int abc_ic_voice_search_api_holo_light
+android.support.v7.appcompat.R$drawable: int abc_item_background_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_item_background_holo_light
+android.support.v7.appcompat.R$drawable: int abc_list_divider_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_list_divider_holo_light
+android.support.v7.appcompat.R$drawable: int abc_list_focused_holo
+android.support.v7.appcompat.R$drawable: int abc_list_longpressed_holo
+android.support.v7.appcompat.R$drawable: int abc_list_pressed_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_list_pressed_holo_light
+android.support.v7.appcompat.R$drawable: int abc_list_selector_background_transition_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_list_selector_background_transition_holo_light
+android.support.v7.appcompat.R$drawable: int abc_list_selector_disabled_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_list_selector_disabled_holo_light
+android.support.v7.appcompat.R$drawable: int abc_list_selector_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_list_selector_holo_light
+android.support.v7.appcompat.R$drawable: int abc_menu_dropdown_panel_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_menu_dropdown_panel_holo_light
+android.support.v7.appcompat.R$drawable: int abc_menu_hardkey_panel_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_menu_hardkey_panel_holo_light
+android.support.v7.appcompat.R$drawable: int abc_search_dropdown_dark
+android.support.v7.appcompat.R$drawable: int abc_search_dropdown_light
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_default_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_default_holo_light
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_disabled_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_disabled_holo_light
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_focused_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_focused_holo_light
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_holo_light
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_pressed_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_spinner_ab_pressed_holo_light
+android.support.v7.appcompat.R$drawable: int abc_tab_indicator_ab_holo
+android.support.v7.appcompat.R$drawable: int abc_tab_selected_focused_holo
+android.support.v7.appcompat.R$drawable: int abc_tab_selected_holo
+android.support.v7.appcompat.R$drawable: int abc_tab_selected_pressed_holo
+android.support.v7.appcompat.R$drawable: int abc_tab_unselected_pressed_holo
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_default_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_default_holo_light
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_right_default_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_right_default_holo_light
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_right_selected_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_right_selected_holo_light
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_selected_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_textfield_search_selected_holo_light
+android.support.v7.appcompat.R$drawable: int abc_textfield_searchview_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_textfield_searchview_holo_light
+android.support.v7.appcompat.R$drawable: int abc_textfield_searchview_right_holo_dark
+android.support.v7.appcompat.R$drawable: int abc_textfield_searchview_right_holo_light
+android.support.v7.appcompat.R$drawable: R$drawable()
+android.support.v7.appcompat.R$id
+android.support.v7.appcompat.R$id: int action_bar
+android.support.v7.appcompat.R$id: int action_bar_activity_content
+android.support.v7.appcompat.R$id: int action_bar_container
+android.support.v7.appcompat.R$id: int action_bar_overlay_layout
+android.support.v7.appcompat.R$id: int action_bar_root
+android.support.v7.appcompat.R$id: int action_bar_subtitle
+android.support.v7.appcompat.R$id: int action_bar_title
+android.support.v7.appcompat.R$id: int action_context_bar
+android.support.v7.appcompat.R$id: int action_menu_divider
+android.support.v7.appcompat.R$id: int action_menu_presenter
+android.support.v7.appcompat.R$id: int action_mode_close_button
+android.support.v7.appcompat.R$id: int activity_chooser_view_content
+android.support.v7.appcompat.R$id: int always
+android.support.v7.appcompat.R$id: int beginning
+android.support.v7.appcompat.R$id: int checkbox
+android.support.v7.appcompat.R$id: int collapseActionView
+android.support.v7.appcompat.R$id: int default_activity_button
+android.support.v7.appcompat.R$id: int dialog
+android.support.v7.appcompat.R$id: int disableHome
+android.support.v7.appcompat.R$id: int dropdown
+android.support.v7.appcompat.R$id: int edit_query
+android.support.v7.appcompat.R$id: int end
+android.support.v7.appcompat.R$id: int expand_activities_button
+android.support.v7.appcompat.R$id: int expanded_menu
+android.support.v7.appcompat.R$id: int home
+android.support.v7.appcompat.R$id: int homeAsUp
+android.support.v7.appcompat.R$id: int icon
+android.support.v7.appcompat.R$id: int ifRoom
+android.support.v7.appcompat.R$id: int image
+android.support.v7.appcompat.R$id: int listMode
+android.support.v7.appcompat.R$id: int list_item
+android.support.v7.appcompat.R$id: int middle
+android.support.v7.appcompat.R$id: int never
+android.support.v7.appcompat.R$id: int none
+android.support.v7.appcompat.R$id: int normal
+android.support.v7.appcompat.R$id: int progress_circular
+android.support.v7.appcompat.R$id: int progress_horizontal
+android.support.v7.appcompat.R$id: int radio
+android.support.v7.appcompat.R$id: int search_badge
+android.support.v7.appcompat.R$id: int search_bar
+android.support.v7.appcompat.R$id: int search_button
+android.support.v7.appcompat.R$id: int search_close_btn
+android.support.v7.appcompat.R$id: int search_edit_frame
+android.support.v7.appcompat.R$id: int search_go_btn
+android.support.v7.appcompat.R$id: int search_mag_icon
+android.support.v7.appcompat.R$id: int search_plate
+android.support.v7.appcompat.R$id: int search_src_text
+android.support.v7.appcompat.R$id: int search_voice_btn
+android.support.v7.appcompat.R$id: int shortcut
+android.support.v7.appcompat.R$id: int showCustom
+android.support.v7.appcompat.R$id: int showHome
+android.support.v7.appcompat.R$id: int showTitle
+android.support.v7.appcompat.R$id: int split_action_bar
+android.support.v7.appcompat.R$id: int submit_area
+android.support.v7.appcompat.R$id: int tabMode
+android.support.v7.appcompat.R$id: int title
+android.support.v7.appcompat.R$id: int top_action_bar
+android.support.v7.appcompat.R$id: int up
+android.support.v7.appcompat.R$id: int useLogo
+android.support.v7.appcompat.R$id: int withText
+android.support.v7.appcompat.R$id: R$id()
+android.support.v7.appcompat.R$integer
+android.support.v7.appcompat.R$integer: int abc_max_action_buttons
+android.support.v7.appcompat.R$integer: R$integer()
+android.support.v7.appcompat.R$layout
+android.support.v7.appcompat.R$layout: int abc_action_bar_decor
+android.support.v7.appcompat.R$layout: int abc_action_bar_decor_include
+android.support.v7.appcompat.R$layout: int abc_action_bar_decor_overlay
+android.support.v7.appcompat.R$layout: int abc_action_bar_home
+android.support.v7.appcompat.R$layout: int abc_action_bar_tab
+android.support.v7.appcompat.R$layout: int abc_action_bar_tabbar
+android.support.v7.appcompat.R$layout: int abc_action_bar_title_item
+android.support.v7.appcompat.R$layout: int abc_action_bar_view_list_nav_layout
+android.support.v7.appcompat.R$layout: int abc_action_menu_item_layout
+android.support.v7.appcompat.R$layout: int abc_action_menu_layout
+android.support.v7.appcompat.R$layout: int abc_action_mode_bar
+android.support.v7.appcompat.R$layout: int abc_action_mode_close_item
+android.support.v7.appcompat.R$layout: int abc_activity_chooser_view
+android.support.v7.appcompat.R$layout: int abc_activity_chooser_view_include
+android.support.v7.appcompat.R$layout: int abc_activity_chooser_view_list_item
+android.support.v7.appcompat.R$layout: int abc_expanded_menu_layout
+android.support.v7.appcompat.R$layout: int abc_list_menu_item_checkbox
+android.support.v7.appcompat.R$layout: int abc_list_menu_item_icon
+android.support.v7.appcompat.R$layout: int abc_list_menu_item_layout
+android.support.v7.appcompat.R$layout: int abc_list_menu_item_radio
+android.support.v7.appcompat.R$layout: int abc_popup_menu_item_layout
+android.support.v7.appcompat.R$layout: int abc_search_dropdown_item_icons_2line
+android.support.v7.appcompat.R$layout: int abc_search_view
+android.support.v7.appcompat.R$layout: int support_simple_spinner_dropdown_item
+android.support.v7.appcompat.R$layout: R$layout()
+android.support.v7.appcompat.R$string
+android.support.v7.appcompat.R$string: int abc_action_bar_home_description
+android.support.v7.appcompat.R$string: int abc_action_bar_up_description
+android.support.v7.appcompat.R$string: int abc_action_menu_overflow_description
+android.support.v7.appcompat.R$string: int abc_action_mode_done
+android.support.v7.appcompat.R$string: int abc_activity_chooser_view_see_all
+android.support.v7.appcompat.R$string: int abc_activitychooserview_choose_application
+android.support.v7.appcompat.R$string: int abc_searchview_description_clear
+android.support.v7.appcompat.R$string: int abc_searchview_description_query
+android.support.v7.appcompat.R$string: int abc_searchview_description_search
+android.support.v7.appcompat.R$string: int abc_searchview_description_submit
+android.support.v7.appcompat.R$string: int abc_searchview_description_voice
+android.support.v7.appcompat.R$string: int abc_shareactionprovider_share_with
+android.support.v7.appcompat.R$string: int abc_shareactionprovider_share_with_application
+android.support.v7.appcompat.R$string: R$string()
+android.support.v7.appcompat.R$style
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Base_CompactMenu_Dialog
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Base_SearchResult
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Base_SearchResult_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Base_SearchResult_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Base_Widget_PopupMenu_Large
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Base_Widget_PopupMenu_Small
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Base_SearchResult
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Base_SearchResult_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_SearchResult_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_SearchResult_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_SearchResult_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_SearchResult_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Menu
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Menu
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Title
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_Base_DropDownItem
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_DropDownItem
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_PopupMenu_Large
+android.support.v7.appcompat.R$style: int TextAppearance_AppCompat_Widget_PopupMenu_Small
+android.support.v7.appcompat.R$style: int TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item
+android.support.v7.appcompat.R$style: int TextAppearance_Widget_AppCompat_ExpandedMenu_Item
+android.support.v7.appcompat.R$style: int Theme_AppCompat
+android.support.v7.appcompat.R$style: int Theme_AppCompat_Base_CompactMenu
+android.support.v7.appcompat.R$style: int Theme_AppCompat_Base_CompactMenu_Dialog
+android.support.v7.appcompat.R$style: int Theme_AppCompat_CompactMenu
+android.support.v7.appcompat.R$style: int Theme_AppCompat_CompactMenu_Dialog
+android.support.v7.appcompat.R$style: int Theme_AppCompat_Light
+android.support.v7.appcompat.R$style: int Theme_AppCompat_Light_DarkActionBar
+android.support.v7.appcompat.R$style: int Theme_Base
+android.support.v7.appcompat.R$style: int Theme_Base_AppCompat
+android.support.v7.appcompat.R$style: int Theme_Base_AppCompat_Light
+android.support.v7.appcompat.R$style: int Theme_Base_AppCompat_Light_DarkActionBar
+android.support.v7.appcompat.R$style: int Theme_Base_Light
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionBar_Solid
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionBar_TabBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionBar_TabText
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionBar_TabView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionButton
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionButton_CloseMode
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionButton_Overflow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActionMode
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ActivityChooserView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_AutoCompleteTextView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionBar_Solid
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionBar_TabBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionBar_TabText
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionBar_TabView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionButton
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionButton_CloseMode
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionButton_Overflow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActionMode
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ActivityChooserView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_AutoCompleteTextView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_DropDownItem_Spinner
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ListPopupWindow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ListView_DropDown
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ListView_Menu
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_PopupMenu
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ProgressBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_ProgressBar_Horizontal
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Base_Spinner
+android.support.v7.appcompat.R$style: int Widget_AppCompat_DropDownItem_Spinner
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_Solid
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_Solid_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_TabBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_TabBar_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_TabText
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_TabText_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_TabView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionBar_TabView_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionButton
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionButton_CloseMode
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionButton_Overflow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActionMode_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ActivityChooserView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_AutoCompleteTextView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_Solid
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabText
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionButton
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionButton_CloseMode
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionButton_Overflow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActionMode_Inverse
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ActivityChooserView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_AutoCompleteTextView
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_DropDownItem_Spinner
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ListPopupWindow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_ListView_DropDown
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_PopupMenu
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Base_Spinner
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_DropDownItem_Spinner
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ListPopupWindow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_ListView_DropDown
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_PopupMenu
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Light_Spinner_DropDown_ActionBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ListPopupWindow
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ListView_DropDown
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ListView_Menu
+android.support.v7.appcompat.R$style: int Widget_AppCompat_PopupMenu
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ProgressBar
+android.support.v7.appcompat.R$style: int Widget_AppCompat_ProgressBar_Horizontal
+android.support.v7.appcompat.R$style: int Widget_AppCompat_Spinner_DropDown_ActionBar
+android.support.v7.appcompat.R$style: R$style()
+android.support.v7.appcompat.R$styleable
+android.support.v7.appcompat.R$styleable: int[] ActionBar
+android.support.v7.appcompat.R$styleable: int[] ActionBarLayout
+android.support.v7.appcompat.R$styleable: int ActionBarLayout_android_layout_gravity
+android.support.v7.appcompat.R$styleable: int[] ActionBarWindow
+android.support.v7.appcompat.R$styleable: int ActionBarWindow_windowActionBar
+android.support.v7.appcompat.R$styleable: int ActionBarWindow_windowActionBarOverlay
+android.support.v7.appcompat.R$styleable: int ActionBarWindow_windowSplitActionBar
+android.support.v7.appcompat.R$styleable: int ActionBar_background
+android.support.v7.appcompat.R$styleable: int ActionBar_backgroundSplit
+android.support.v7.appcompat.R$styleable: int ActionBar_backgroundStacked
+android.support.v7.appcompat.R$styleable: int ActionBar_customNavigationLayout
+android.support.v7.appcompat.R$styleable: int ActionBar_displayOptions
+android.support.v7.appcompat.R$styleable: int ActionBar_divider
+android.support.v7.appcompat.R$styleable: int ActionBar_height
+android.support.v7.appcompat.R$styleable: int ActionBar_homeLayout
+android.support.v7.appcompat.R$styleable: int ActionBar_icon
+android.support.v7.appcompat.R$styleable: int ActionBar_indeterminateProgressStyle
+android.support.v7.appcompat.R$styleable: int ActionBar_itemPadding
+android.support.v7.appcompat.R$styleable: int ActionBar_logo
+android.support.v7.appcompat.R$styleable: int ActionBar_navigationMode
+android.support.v7.appcompat.R$styleable: int ActionBar_progressBarPadding
+android.support.v7.appcompat.R$styleable: int ActionBar_progressBarStyle
+android.support.v7.appcompat.R$styleable: int ActionBar_subtitle
+android.support.v7.appcompat.R$styleable: int ActionBar_subtitleTextStyle
+android.support.v7.appcompat.R$styleable: int ActionBar_title
+android.support.v7.appcompat.R$styleable: int ActionBar_titleTextStyle
+android.support.v7.appcompat.R$styleable: int[] ActionMenuItemView
+android.support.v7.appcompat.R$styleable: int ActionMenuItemView_android_minWidth
+android.support.v7.appcompat.R$styleable: int[] ActionMenuView
+android.support.v7.appcompat.R$styleable: int[] ActionMode
+android.support.v7.appcompat.R$styleable: int ActionMode_background
+android.support.v7.appcompat.R$styleable: int ActionMode_backgroundSplit
+android.support.v7.appcompat.R$styleable: int ActionMode_height
+android.support.v7.appcompat.R$styleable: int ActionMode_subtitleTextStyle
+android.support.v7.appcompat.R$styleable: int ActionMode_titleTextStyle
+android.support.v7.appcompat.R$styleable: int[] ActivityChooserView
+android.support.v7.appcompat.R$styleable: int ActivityChooserView_expandActivityOverflowButtonDrawable
+android.support.v7.appcompat.R$styleable: int ActivityChooserView_initialActivityCount
+android.support.v7.appcompat.R$styleable: int[] CompatTextView
+android.support.v7.appcompat.R$styleable: int CompatTextView_textAllCaps
+android.support.v7.appcompat.R$styleable: int[] LinearLayoutICS
+android.support.v7.appcompat.R$styleable: int LinearLayoutICS_divider
+android.support.v7.appcompat.R$styleable: int LinearLayoutICS_dividerPadding
+android.support.v7.appcompat.R$styleable: int LinearLayoutICS_showDividers
+android.support.v7.appcompat.R$styleable: int[] MenuGroup
+android.support.v7.appcompat.R$styleable: int MenuGroup_android_checkableBehavior
+android.support.v7.appcompat.R$styleable: int MenuGroup_android_enabled
+android.support.v7.appcompat.R$styleable: int MenuGroup_android_id
+android.support.v7.appcompat.R$styleable: int MenuGroup_android_menuCategory
+android.support.v7.appcompat.R$styleable: int MenuGroup_android_orderInCategory
+android.support.v7.appcompat.R$styleable: int MenuGroup_android_visible
+android.support.v7.appcompat.R$styleable: int[] MenuItem
+android.support.v7.appcompat.R$styleable: int MenuItem_actionLayout
+android.support.v7.appcompat.R$styleable: int MenuItem_actionProviderClass
+android.support.v7.appcompat.R$styleable: int MenuItem_actionViewClass
+android.support.v7.appcompat.R$styleable: int MenuItem_android_alphabeticShortcut
+android.support.v7.appcompat.R$styleable: int MenuItem_android_checkable
+android.support.v7.appcompat.R$styleable: int MenuItem_android_checked
+android.support.v7.appcompat.R$styleable: int MenuItem_android_enabled
+android.support.v7.appcompat.R$styleable: int MenuItem_android_icon
+android.support.v7.appcompat.R$styleable: int MenuItem_android_id
+android.support.v7.appcompat.R$styleable: int MenuItem_android_menuCategory
+android.support.v7.appcompat.R$styleable: int MenuItem_android_numericShortcut
+android.support.v7.appcompat.R$styleable: int MenuItem_android_onClick
+android.support.v7.appcompat.R$styleable: int MenuItem_android_orderInCategory
+android.support.v7.appcompat.R$styleable: int MenuItem_android_title
+android.support.v7.appcompat.R$styleable: int MenuItem_android_titleCondensed
+android.support.v7.appcompat.R$styleable: int MenuItem_android_visible
+android.support.v7.appcompat.R$styleable: int MenuItem_showAsAction
+android.support.v7.appcompat.R$styleable: int[] MenuView
+android.support.v7.appcompat.R$styleable: int MenuView_android_headerBackground
+android.support.v7.appcompat.R$styleable: int MenuView_android_horizontalDivider
+android.support.v7.appcompat.R$styleable: int MenuView_android_itemBackground
+android.support.v7.appcompat.R$styleable: int MenuView_android_itemIconDisabledAlpha
+android.support.v7.appcompat.R$styleable: int MenuView_android_itemTextAppearance
+android.support.v7.appcompat.R$styleable: int MenuView_android_preserveIconSpacing
+android.support.v7.appcompat.R$styleable: int MenuView_android_verticalDivider
+android.support.v7.appcompat.R$styleable: int MenuView_android_windowAnimationStyle
+android.support.v7.appcompat.R$styleable: int[] SearchView
+android.support.v7.appcompat.R$styleable: int SearchView_android_imeOptions
+android.support.v7.appcompat.R$styleable: int SearchView_android_inputType
+android.support.v7.appcompat.R$styleable: int SearchView_android_maxWidth
+android.support.v7.appcompat.R$styleable: int SearchView_iconifiedByDefault
+android.support.v7.appcompat.R$styleable: int SearchView_queryHint
+android.support.v7.appcompat.R$styleable: int[] Spinner
+android.support.v7.appcompat.R$styleable: int Spinner_android_dropDownHorizontalOffset
+android.support.v7.appcompat.R$styleable: int Spinner_android_dropDownSelector
+android.support.v7.appcompat.R$styleable: int Spinner_android_dropDownVerticalOffset
+android.support.v7.appcompat.R$styleable: int Spinner_android_dropDownWidth
+android.support.v7.appcompat.R$styleable: int Spinner_android_gravity
+android.support.v7.appcompat.R$styleable: int Spinner_android_popupBackground
+android.support.v7.appcompat.R$styleable: int Spinner_disableChildrenWhenDisabled
+android.support.v7.appcompat.R$styleable: int Spinner_popupPromptView
+android.support.v7.appcompat.R$styleable: int Spinner_prompt
+android.support.v7.appcompat.R$styleable: int Spinner_spinnerMode
+android.support.v7.appcompat.R$styleable: int[] Theme
+android.support.v7.appcompat.R$styleable: int Theme_actionDropDownStyle
+android.support.v7.appcompat.R$styleable: int Theme_dropdownListPreferredItemHeight
+android.support.v7.appcompat.R$styleable: int Theme_listChoiceBackgroundIndicator
+android.support.v7.appcompat.R$styleable: int Theme_panelMenuListTheme
+android.support.v7.appcompat.R$styleable: int Theme_panelMenuListWidth
+android.support.v7.appcompat.R$styleable: int Theme_popupMenuStyle
+android.support.v7.appcompat.R$styleable: int[] View
+android.support.v7.appcompat.R$styleable: int View_android_focusable
+android.support.v7.appcompat.R$styleable: int View_paddingEnd
+android.support.v7.appcompat.R$styleable: int View_paddingStart
+android.support.v7.appcompat.R$styleable: R$styleable()
+android.support.v7.internal.view.ActionBarPolicy
+android.support.v7.internal.view.ActionModeWrapper
+android.support.v7.internal.view.ActionModeWrapper$CallbackWrapper
+android.support.v7.internal.view.SupportMenuInflater
+android.support.v7.internal.view.SupportMenuInflater$InflatedOnMenuItemClickListener
+android.support.v7.internal.view.SupportMenuInflater$MenuState
+android.support.v7.internal.view.menu.ActionMenuItem
+android.support.v7.internal.view.menu.ActionMenuItemView
+android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context)
+android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.view.menu.ActionMenuItemView$AllCapsTransformationMethod
+android.support.v7.internal.view.menu.ActionMenuPresenter
+android.support.v7.internal.view.menu.ActionMenuPresenter$1
+android.support.v7.internal.view.menu.ActionMenuPresenter$ActionButtonSubmenu
+android.support.v7.internal.view.menu.ActionMenuPresenter$OpenOverflowRunnable
+android.support.v7.internal.view.menu.ActionMenuPresenter$OverflowMenuButton
+android.support.v7.internal.view.menu.ActionMenuPresenter$OverflowPopup
+android.support.v7.internal.view.menu.ActionMenuPresenter$PopupPresenterCallback
+android.support.v7.internal.view.menu.ActionMenuPresenter$SavedState
+android.support.v7.internal.view.menu.ActionMenuPresenter$SavedState$1
+android.support.v7.internal.view.menu.ActionMenuView
+android.support.v7.internal.view.menu.ActionMenuView: ActionMenuView(android.content.Context)
+android.support.v7.internal.view.menu.ActionMenuView: ActionMenuView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ActionMenuView$ActionMenuChildView
+android.support.v7.internal.view.menu.ActionMenuView$LayoutParams
+android.support.v7.internal.view.menu.BaseMenuPresenter
+android.support.v7.internal.view.menu.BaseMenuWrapper
+android.support.v7.internal.view.menu.BaseWrapper
+android.support.v7.internal.view.menu.ExpandedMenuView
+android.support.v7.internal.view.menu.ExpandedMenuView: ExpandedMenuView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ListMenuItemView
+android.support.v7.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.view.menu.ListMenuPresenter
+android.support.v7.internal.view.menu.ListMenuPresenter$MenuAdapter
+android.support.v7.internal.view.menu.MenuBuilder
+android.support.v7.internal.view.menu.MenuBuilder$Callback
+android.support.v7.internal.view.menu.MenuBuilder$ItemInvoker
+android.support.v7.internal.view.menu.MenuDialogHelper
+android.support.v7.internal.view.menu.MenuItemImpl
+android.support.v7.internal.view.menu.MenuItemImpl$1
+android.support.v7.internal.view.menu.MenuItemWrapperICS
+android.support.v7.internal.view.menu.MenuItemWrapperICS$ActionProviderWrapper
+android.support.v7.internal.view.menu.MenuItemWrapperICS$ActionProviderWrapper$1
+android.support.v7.internal.view.menu.MenuItemWrapperICS$CollapsibleActionViewWrapper
+android.support.v7.internal.view.menu.MenuItemWrapperICS$OnActionExpandListenerWrapper
+android.support.v7.internal.view.menu.MenuItemWrapperICS$OnMenuItemClickListenerWrapper
+android.support.v7.internal.view.menu.MenuItemWrapperJB
+android.support.v7.internal.view.menu.MenuItemWrapperJB$ActionProviderWrapperJB
+android.support.v7.internal.view.menu.MenuPopupHelper
+android.support.v7.internal.view.menu.MenuPopupHelper$MenuAdapter
+android.support.v7.internal.view.menu.MenuPresenter
+android.support.v7.internal.view.menu.MenuPresenter$Callback
+android.support.v7.internal.view.menu.MenuView
+android.support.v7.internal.view.menu.MenuView$ItemView
+android.support.v7.internal.view.menu.MenuWrapperFactory
+android.support.v7.internal.view.menu.MenuWrapperICS
+android.support.v7.internal.view.menu.SubMenuBuilder
+android.support.v7.internal.view.menu.SubMenuWrapperICS
+android.support.v7.internal.widget.AbsActionBarView
+android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context)
+android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.AbsActionBarView$1
+android.support.v7.internal.widget.AbsSpinnerICS
+android.support.v7.internal.widget.AbsSpinnerICS$1
+android.support.v7.internal.widget.AbsSpinnerICS$RecycleBin
+android.support.v7.internal.widget.AbsSpinnerICS$SavedState
+android.support.v7.internal.widget.AbsSpinnerICS$SavedState$1
+android.support.v7.internal.widget.ActionBarContainer
+android.support.v7.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context)
+android.support.v7.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarContextView
+android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context)
+android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.ActionBarContextView$1
+android.support.v7.internal.widget.ActionBarOverlayLayout
+android.support.v7.internal.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context)
+android.support.v7.internal.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarView
+android.support.v7.internal.widget.ActionBarView: ActionBarView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarView$1
+android.support.v7.internal.widget.ActionBarView$2
+android.support.v7.internal.widget.ActionBarView$3
+android.support.v7.internal.widget.ActionBarView$ExpandedActionViewMenuPresenter
+android.support.v7.internal.widget.ActionBarView$HomeView
+android.support.v7.internal.widget.ActionBarView$HomeView: ActionBarView$HomeView(android.content.Context)
+android.support.v7.internal.widget.ActionBarView$HomeView: ActionBarView$HomeView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ActionBarView$SavedState
+android.support.v7.internal.widget.ActionBarView$SavedState$1
+android.support.v7.internal.widget.ActivityChooserModel
+android.support.v7.internal.widget.ActivityChooserModel$1
+android.support.v7.internal.widget.ActivityChooserModel$ActivityChooserModelClient
+android.support.v7.internal.widget.ActivityChooserModel$ActivityResolveInfo
+android.support.v7.internal.widget.ActivityChooserModel$ActivitySorter
+android.support.v7.internal.widget.ActivityChooserModel$DefaultSorter
+android.support.v7.internal.widget.ActivityChooserModel$HistoricalRecord
+android.support.v7.internal.widget.ActivityChooserModel$OnChooseActivityListener
+android.support.v7.internal.widget.ActivityChooserModel$PersistHistoryAsyncTask
+android.support.v7.internal.widget.ActivityChooserView
+android.support.v7.internal.widget.ActivityChooserView$1
+android.support.v7.internal.widget.ActivityChooserView$2
+android.support.v7.internal.widget.ActivityChooserView$3
+android.support.v7.internal.widget.ActivityChooserView$ActivityChooserViewAdapter
+android.support.v7.internal.widget.ActivityChooserView$Callbacks
+android.support.v7.internal.widget.AdapterViewICS
+android.support.v7.internal.widget.AdapterViewICS$1
+android.support.v7.internal.widget.AdapterViewICS$AdapterContextMenuInfo
+android.support.v7.internal.widget.AdapterViewICS$AdapterDataSetObserver
+android.support.v7.internal.widget.AdapterViewICS$OnItemClickListener
+android.support.v7.internal.widget.AdapterViewICS$OnItemClickListenerWrapper
+android.support.v7.internal.widget.AdapterViewICS$OnItemLongClickListener
+android.support.v7.internal.widget.AdapterViewICS$OnItemSelectedListener
+android.support.v7.internal.widget.AdapterViewICS$SelectionNotifier
+android.support.v7.internal.widget.CompatTextView
+android.support.v7.internal.widget.CompatTextView: CompatTextView(android.content.Context)
+android.support.v7.internal.widget.CompatTextView: CompatTextView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.CompatTextView: CompatTextView(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.internal.widget.CompatTextView$AllCapsTransformationMethod
+android.support.v7.internal.widget.LinearLayoutICS
+android.support.v7.internal.widget.LinearLayoutICS: LinearLayoutICS(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.ListPopupWindow
+android.support.v7.internal.widget.ListPopupWindow$1
+android.support.v7.internal.widget.ListPopupWindow$2
+android.support.v7.internal.widget.ListPopupWindow$DropDownListView
+android.support.v7.internal.widget.ListPopupWindow$ListSelectorHider
+android.support.v7.internal.widget.ListPopupWindow$PopupDataSetObserver
+android.support.v7.internal.widget.ListPopupWindow$PopupScrollListener
+android.support.v7.internal.widget.ListPopupWindow$PopupTouchInterceptor
+android.support.v7.internal.widget.ListPopupWindow$ResizePopupRunnable
+android.support.v7.internal.widget.NativeActionModeAwareLayout
+android.support.v7.internal.widget.NativeActionModeAwareLayout: NativeActionModeAwareLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.NativeActionModeAwareLayout$OnActionModeForChildListener
+android.support.v7.internal.widget.ProgressBarICS
+android.support.v7.internal.widget.ProgressBarICS$1
+android.support.v7.internal.widget.ProgressBarICS$RefreshProgressRunnable
+android.support.v7.internal.widget.ProgressBarICS$SavedState
+android.support.v7.internal.widget.ProgressBarICS$SavedState$1
+android.support.v7.internal.widget.ScrollingTabContainerView
+android.support.v7.internal.widget.ScrollingTabContainerView$1
+android.support.v7.internal.widget.ScrollingTabContainerView$TabAdapter
+android.support.v7.internal.widget.ScrollingTabContainerView$TabClickListener
+android.support.v7.internal.widget.ScrollingTabContainerView$TabView
+android.support.v7.internal.widget.ScrollingTabContainerView$TabView: ScrollingTabContainerView$TabView(android.content.Context,android.util.AttributeSet)
+android.support.v7.internal.widget.SpinnerICS
+android.support.v7.internal.widget.SpinnerICS$1
+android.support.v7.internal.widget.SpinnerICS$DialogPopup
+android.support.v7.internal.widget.SpinnerICS$DropDownAdapter
+android.support.v7.internal.widget.SpinnerICS$DropdownPopup
+android.support.v7.internal.widget.SpinnerICS$DropdownPopup$1
+android.support.v7.internal.widget.SpinnerICS$SpinnerPopup
+android.support.v7.view.ActionMode
+android.support.v7.view.ActionMode$Callback
+android.support.v7.view.CollapsibleActionView
+android.support.v7.widget.PopupMenu
+android.support.v7.widget.PopupMenu$OnDismissListener
+android.support.v7.widget.PopupMenu$OnMenuItemClickListener
+android.support.v7.widget.SearchView
+android.support.v7.widget.SearchView$1
+android.support.v7.widget.SearchView$10
+android.support.v7.widget.SearchView$11
+android.support.v7.widget.SearchView$12
+android.support.v7.widget.SearchView$2
+android.support.v7.widget.SearchView$3
+android.support.v7.widget.SearchView$4
+android.support.v7.widget.SearchView$5
+android.support.v7.widget.SearchView$6
+android.support.v7.widget.SearchView$7
+android.support.v7.widget.SearchView$8
+android.support.v7.widget.SearchView$9
+android.support.v7.widget.SearchView$AutoCompleteTextViewReflector
+android.support.v7.widget.SearchView$OnCloseListener
+android.support.v7.widget.SearchView$OnQueryTextListener
+android.support.v7.widget.SearchView$OnSuggestionListener
+android.support.v7.widget.SearchView$SearchAutoComplete
+android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context)
+android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet,int)
+android.support.v7.widget.ShareActionProvider
+android.support.v7.widget.ShareActionProvider$1
+android.support.v7.widget.ShareActionProvider$OnShareTargetSelectedListener
+android.support.v7.widget.ShareActionProvider$ShareActivityChooserModelPolicy
+android.support.v7.widget.ShareActionProvider$ShareMenuItemOnMenuItemClickListener
+android.support.v7.widget.SuggestionsAdapter
+android.support.v7.widget.SuggestionsAdapter$ChildViewCache
 butterknife.ButterKnife
 butterknife.ButterKnife$1
 butterknife.ButterKnife$Action
@@ -629,7 +1413,6 @@ com.android.volley.toolbox.RequestFuture
 com.android.volley.toolbox.StringRequest
 com.android.volley.toolbox.Volley
 com.example.testtemplate.BuildConfig
-com.example.testtemplate.GridBean
 com.example.testtemplate.MainActivity
 com.example.testtemplate.MainActivity: MainActivity()
 com.example.testtemplate.MainTypeActivity
@@ -642,27 +1425,158 @@ com.example.testtemplate.MainTypeFragment$$ViewInjector: MainTypeFragment$$ViewI
 com.example.testtemplate.MainTypeFragment$$ViewInjector: void inject(butterknife.ButterKnife$Finder,com.example.testtemplate.MainTypeFragment,java.lang.Object)
 com.example.testtemplate.MainTypeFragment$$ViewInjector: void reset(com.example.testtemplate.MainTypeFragment)
 com.example.testtemplate.MainTypeFragment$1
+com.example.testtemplate.MainTypeFragment$10
+com.example.testtemplate.MainTypeFragment$11
 com.example.testtemplate.MainTypeFragment$2
 com.example.testtemplate.MainTypeFragment$3
 com.example.testtemplate.MainTypeFragment$4
 com.example.testtemplate.MainTypeFragment$5
 com.example.testtemplate.MainTypeFragment$6
+com.example.testtemplate.MainTypeFragment$7
+com.example.testtemplate.MainTypeFragment$8
+com.example.testtemplate.MainTypeFragment$9
 com.example.testtemplate.MainTypeFragment$MyAdapter
 com.example.testtemplate.MainTypeFragment$MyPageAdapter
-com.example.testtemplate.MySingletonVolley
-com.example.testtemplate.MySingletonVolley$1
 com.example.testtemplate.PlaceholderFragment
 com.example.testtemplate.PlaceholderFragment$1
 com.example.testtemplate.PlaceholderFragment$2
 com.example.testtemplate.PlaceholderFragment$3
 com.example.testtemplate.PlaceholderFragment$4
+com.example.testtemplate.PlaceholderFragment$5
+com.example.testtemplate.PlaceholderFragment$6
 com.example.testtemplate.PlaceholderFragment$MyAdapter
 com.example.testtemplate.PlaceholderFragment$MyPageConfig
 com.example.testtemplate.R
 com.example.testtemplate.R: R()
+com.example.testtemplate.R$anim
+com.example.testtemplate.R$anim: int abc_fade_in
+com.example.testtemplate.R$anim: int abc_fade_out
+com.example.testtemplate.R$anim: int abc_slide_in_bottom
+com.example.testtemplate.R$anim: int abc_slide_in_top
+com.example.testtemplate.R$anim: int abc_slide_out_bottom
+com.example.testtemplate.R$anim: int abc_slide_out_top
+com.example.testtemplate.R$anim: R$anim()
 com.example.testtemplate.R$attr
+com.example.testtemplate.R$attr: int actionBarDivider
+com.example.testtemplate.R$attr: int actionBarItemBackground
+com.example.testtemplate.R$attr: int actionBarSize
+com.example.testtemplate.R$attr: int actionBarSplitStyle
+com.example.testtemplate.R$attr: int actionBarStyle
+com.example.testtemplate.R$attr: int actionBarTabBarStyle
+com.example.testtemplate.R$attr: int actionBarTabStyle
+com.example.testtemplate.R$attr: int actionBarTabTextStyle
+com.example.testtemplate.R$attr: int actionBarWidgetTheme
+com.example.testtemplate.R$attr: int actionButtonStyle
+com.example.testtemplate.R$attr: int actionDropDownStyle
+com.example.testtemplate.R$attr: int actionLayout
+com.example.testtemplate.R$attr: int actionMenuTextAppearance
+com.example.testtemplate.R$attr: int actionMenuTextColor
+com.example.testtemplate.R$attr: int actionModeBackground
+com.example.testtemplate.R$attr: int actionModeCloseButtonStyle
+com.example.testtemplate.R$attr: int actionModeCloseDrawable
+com.example.testtemplate.R$attr: int actionModeCopyDrawable
+com.example.testtemplate.R$attr: int actionModeCutDrawable
+com.example.testtemplate.R$attr: int actionModeFindDrawable
+com.example.testtemplate.R$attr: int actionModePasteDrawable
+com.example.testtemplate.R$attr: int actionModePopupWindowStyle
+com.example.testtemplate.R$attr: int actionModeSelectAllDrawable
+com.example.testtemplate.R$attr: int actionModeShareDrawable
+com.example.testtemplate.R$attr: int actionModeSplitBackground
+com.example.testtemplate.R$attr: int actionModeStyle
+com.example.testtemplate.R$attr: int actionModeWebSearchDrawable
+com.example.testtemplate.R$attr: int actionOverflowButtonStyle
+com.example.testtemplate.R$attr: int actionProviderClass
+com.example.testtemplate.R$attr: int actionViewClass
+com.example.testtemplate.R$attr: int activityChooserViewStyle
+com.example.testtemplate.R$attr: int background
+com.example.testtemplate.R$attr: int backgroundSplit
+com.example.testtemplate.R$attr: int backgroundStacked
+com.example.testtemplate.R$attr: int buttonBarButtonStyle
+com.example.testtemplate.R$attr: int buttonBarStyle
+com.example.testtemplate.R$attr: int customNavigationLayout
+com.example.testtemplate.R$attr: int disableChildrenWhenDisabled
+com.example.testtemplate.R$attr: int displayOptions
+com.example.testtemplate.R$attr: int divider
+com.example.testtemplate.R$attr: int dividerHorizontal
+com.example.testtemplate.R$attr: int dividerPadding
+com.example.testtemplate.R$attr: int dividerVertical
+com.example.testtemplate.R$attr: int dropDownListViewStyle
+com.example.testtemplate.R$attr: int dropdownListPreferredItemHeight
+com.example.testtemplate.R$attr: int expandActivityOverflowButtonDrawable
+com.example.testtemplate.R$attr: int height
+com.example.testtemplate.R$attr: int homeAsUpIndicator
+com.example.testtemplate.R$attr: int homeLayout
+com.example.testtemplate.R$attr: int icon
+com.example.testtemplate.R$attr: int iconifiedByDefault
+com.example.testtemplate.R$attr: int indeterminateProgressStyle
+com.example.testtemplate.R$attr: int initialActivityCount
+com.example.testtemplate.R$attr: int isLightTheme
+com.example.testtemplate.R$attr: int itemPadding
+com.example.testtemplate.R$attr: int listChoiceBackgroundIndicator
+com.example.testtemplate.R$attr: int listPopupWindowStyle
+com.example.testtemplate.R$attr: int listPreferredItemHeight
+com.example.testtemplate.R$attr: int listPreferredItemHeightLarge
+com.example.testtemplate.R$attr: int listPreferredItemHeightSmall
+com.example.testtemplate.R$attr: int listPreferredItemPaddingLeft
+com.example.testtemplate.R$attr: int listPreferredItemPaddingRight
+com.example.testtemplate.R$attr: int logo
+com.example.testtemplate.R$attr: int navigationMode
+com.example.testtemplate.R$attr: int paddingEnd
+com.example.testtemplate.R$attr: int paddingStart
+com.example.testtemplate.R$attr: int panelMenuListTheme
+com.example.testtemplate.R$attr: int panelMenuListWidth
+com.example.testtemplate.R$attr: int popupMenuStyle
+com.example.testtemplate.R$attr: int popupPromptView
+com.example.testtemplate.R$attr: int progressBarPadding
+com.example.testtemplate.R$attr: int progressBarStyle
+com.example.testtemplate.R$attr: int prompt
+com.example.testtemplate.R$attr: int queryHint
+com.example.testtemplate.R$attr: int searchDropdownBackground
+com.example.testtemplate.R$attr: int searchResultListItemHeight
+com.example.testtemplate.R$attr: int searchViewAutoCompleteTextView
+com.example.testtemplate.R$attr: int searchViewCloseIcon
+com.example.testtemplate.R$attr: int searchViewEditQuery
+com.example.testtemplate.R$attr: int searchViewEditQueryBackground
+com.example.testtemplate.R$attr: int searchViewGoIcon
+com.example.testtemplate.R$attr: int searchViewSearchIcon
+com.example.testtemplate.R$attr: int searchViewTextField
+com.example.testtemplate.R$attr: int searchViewTextFieldRight
+com.example.testtemplate.R$attr: int searchViewVoiceIcon
+com.example.testtemplate.R$attr: int selectableItemBackground
+com.example.testtemplate.R$attr: int showAsAction
+com.example.testtemplate.R$attr: int showDividers
+com.example.testtemplate.R$attr: int spinnerDropDownItemStyle
+com.example.testtemplate.R$attr: int spinnerMode
+com.example.testtemplate.R$attr: int spinnerStyle
+com.example.testtemplate.R$attr: int subtitle
+com.example.testtemplate.R$attr: int subtitleTextStyle
+com.example.testtemplate.R$attr: int textAllCaps
+com.example.testtemplate.R$attr: int textAppearanceLargePopupMenu
+com.example.testtemplate.R$attr: int textAppearanceListItem
+com.example.testtemplate.R$attr: int textAppearanceListItemSmall
+com.example.testtemplate.R$attr: int textAppearanceSearchResultSubtitle
+com.example.testtemplate.R$attr: int textAppearanceSearchResultTitle
+com.example.testtemplate.R$attr: int textAppearanceSmallPopupMenu
+com.example.testtemplate.R$attr: int textColorSearchUrl
+com.example.testtemplate.R$attr: int title
+com.example.testtemplate.R$attr: int titleTextStyle
+com.example.testtemplate.R$attr: int windowActionBar
+com.example.testtemplate.R$attr: int windowActionBarOverlay
+com.example.testtemplate.R$attr: int windowSplitActionBar
 com.example.testtemplate.R$attr: R$attr()
+com.example.testtemplate.R$bool
+com.example.testtemplate.R$bool: int abc_action_bar_embed_tabs_pre_jb
+com.example.testtemplate.R$bool: int abc_action_bar_expanded_action_views_exclusive
+com.example.testtemplate.R$bool: int abc_config_actionMenuItemAllCaps
+com.example.testtemplate.R$bool: int abc_config_allowActionMenuItemTextWithIcon
+com.example.testtemplate.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
+com.example.testtemplate.R$bool: int abc_split_action_bar_is_narrow
+com.example.testtemplate.R$bool: R$bool()
 com.example.testtemplate.R$color
+com.example.testtemplate.R$color: int abc_search_url_text_holo
+com.example.testtemplate.R$color: int abc_search_url_text_normal
+com.example.testtemplate.R$color: int abc_search_url_text_pressed
+com.example.testtemplate.R$color: int abc_search_url_text_selected
 com.example.testtemplate.R$color: int black
 com.example.testtemplate.R$color: int brown
 com.example.testtemplate.R$color: int dark_gray
@@ -672,10 +1586,115 @@ com.example.testtemplate.R$color: int red
 com.example.testtemplate.R$color: int white
 com.example.testtemplate.R$color: R$color()
 com.example.testtemplate.R$dimen
+com.example.testtemplate.R$dimen: int abc_action_bar_default_height
+com.example.testtemplate.R$dimen: int abc_action_bar_icon_vertical_padding
+com.example.testtemplate.R$dimen: int abc_action_bar_progress_bar_size
+com.example.testtemplate.R$dimen: int abc_action_bar_stacked_max_height
+com.example.testtemplate.R$dimen: int abc_action_bar_stacked_tab_max_width
+com.example.testtemplate.R$dimen: int abc_action_bar_subtitle_bottom_margin
+com.example.testtemplate.R$dimen: int abc_action_bar_subtitle_text_size
+com.example.testtemplate.R$dimen: int abc_action_bar_subtitle_top_margin
+com.example.testtemplate.R$dimen: int abc_action_bar_title_text_size
+com.example.testtemplate.R$dimen: int abc_action_button_min_width
+com.example.testtemplate.R$dimen: int abc_config_prefDialogWidth
+com.example.testtemplate.R$dimen: int abc_dropdownitem_icon_width
+com.example.testtemplate.R$dimen: int abc_dropdownitem_text_padding_left
+com.example.testtemplate.R$dimen: int abc_dropdownitem_text_padding_right
+com.example.testtemplate.R$dimen: int abc_panel_menu_list_width
+com.example.testtemplate.R$dimen: int abc_search_view_preferred_width
+com.example.testtemplate.R$dimen: int abc_search_view_text_min_width
 com.example.testtemplate.R$dimen: int activity_horizontal_margin
 com.example.testtemplate.R$dimen: int activity_vertical_margin
+com.example.testtemplate.R$dimen: int navigation_drawer_width
 com.example.testtemplate.R$dimen: R$dimen()
 com.example.testtemplate.R$drawable
+com.example.testtemplate.R$drawable: int abc_ab_bottom_solid_dark_holo
+com.example.testtemplate.R$drawable: int abc_ab_bottom_solid_light_holo
+com.example.testtemplate.R$drawable: int abc_ab_bottom_transparent_dark_holo
+com.example.testtemplate.R$drawable: int abc_ab_bottom_transparent_light_holo
+com.example.testtemplate.R$drawable: int abc_ab_share_pack_holo_dark
+com.example.testtemplate.R$drawable: int abc_ab_share_pack_holo_light
+com.example.testtemplate.R$drawable: int abc_ab_solid_dark_holo
+com.example.testtemplate.R$drawable: int abc_ab_solid_light_holo
+com.example.testtemplate.R$drawable: int abc_ab_stacked_solid_dark_holo
+com.example.testtemplate.R$drawable: int abc_ab_stacked_solid_light_holo
+com.example.testtemplate.R$drawable: int abc_ab_stacked_transparent_dark_holo
+com.example.testtemplate.R$drawable: int abc_ab_stacked_transparent_light_holo
+com.example.testtemplate.R$drawable: int abc_ab_transparent_dark_holo
+com.example.testtemplate.R$drawable: int abc_ab_transparent_light_holo
+com.example.testtemplate.R$drawable: int abc_cab_background_bottom_holo_dark
+com.example.testtemplate.R$drawable: int abc_cab_background_bottom_holo_light
+com.example.testtemplate.R$drawable: int abc_cab_background_top_holo_dark
+com.example.testtemplate.R$drawable: int abc_cab_background_top_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_ab_back_holo_dark
+com.example.testtemplate.R$drawable: int abc_ic_ab_back_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_cab_done_holo_dark
+com.example.testtemplate.R$drawable: int abc_ic_cab_done_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_clear
+com.example.testtemplate.R$drawable: int abc_ic_clear_disabled
+com.example.testtemplate.R$drawable: int abc_ic_clear_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_clear_normal
+com.example.testtemplate.R$drawable: int abc_ic_clear_search_api_disabled_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_clear_search_api_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_commit_search_api_holo_dark
+com.example.testtemplate.R$drawable: int abc_ic_commit_search_api_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_go
+com.example.testtemplate.R$drawable: int abc_ic_go_search_api_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_menu_moreoverflow_normal_holo_dark
+com.example.testtemplate.R$drawable: int abc_ic_menu_moreoverflow_normal_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_menu_share_holo_dark
+com.example.testtemplate.R$drawable: int abc_ic_menu_share_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_search
+com.example.testtemplate.R$drawable: int abc_ic_search_api_holo_light
+com.example.testtemplate.R$drawable: int abc_ic_voice_search
+com.example.testtemplate.R$drawable: int abc_ic_voice_search_api_holo_light
+com.example.testtemplate.R$drawable: int abc_item_background_holo_dark
+com.example.testtemplate.R$drawable: int abc_item_background_holo_light
+com.example.testtemplate.R$drawable: int abc_list_divider_holo_dark
+com.example.testtemplate.R$drawable: int abc_list_divider_holo_light
+com.example.testtemplate.R$drawable: int abc_list_focused_holo
+com.example.testtemplate.R$drawable: int abc_list_longpressed_holo
+com.example.testtemplate.R$drawable: int abc_list_pressed_holo_dark
+com.example.testtemplate.R$drawable: int abc_list_pressed_holo_light
+com.example.testtemplate.R$drawable: int abc_list_selector_background_transition_holo_dark
+com.example.testtemplate.R$drawable: int abc_list_selector_background_transition_holo_light
+com.example.testtemplate.R$drawable: int abc_list_selector_disabled_holo_dark
+com.example.testtemplate.R$drawable: int abc_list_selector_disabled_holo_light
+com.example.testtemplate.R$drawable: int abc_list_selector_holo_dark
+com.example.testtemplate.R$drawable: int abc_list_selector_holo_light
+com.example.testtemplate.R$drawable: int abc_menu_dropdown_panel_holo_dark
+com.example.testtemplate.R$drawable: int abc_menu_dropdown_panel_holo_light
+com.example.testtemplate.R$drawable: int abc_menu_hardkey_panel_holo_dark
+com.example.testtemplate.R$drawable: int abc_menu_hardkey_panel_holo_light
+com.example.testtemplate.R$drawable: int abc_search_dropdown_dark
+com.example.testtemplate.R$drawable: int abc_search_dropdown_light
+com.example.testtemplate.R$drawable: int abc_spinner_ab_default_holo_dark
+com.example.testtemplate.R$drawable: int abc_spinner_ab_default_holo_light
+com.example.testtemplate.R$drawable: int abc_spinner_ab_disabled_holo_dark
+com.example.testtemplate.R$drawable: int abc_spinner_ab_disabled_holo_light
+com.example.testtemplate.R$drawable: int abc_spinner_ab_focused_holo_dark
+com.example.testtemplate.R$drawable: int abc_spinner_ab_focused_holo_light
+com.example.testtemplate.R$drawable: int abc_spinner_ab_holo_dark
+com.example.testtemplate.R$drawable: int abc_spinner_ab_holo_light
+com.example.testtemplate.R$drawable: int abc_spinner_ab_pressed_holo_dark
+com.example.testtemplate.R$drawable: int abc_spinner_ab_pressed_holo_light
+com.example.testtemplate.R$drawable: int abc_tab_indicator_ab_holo
+com.example.testtemplate.R$drawable: int abc_tab_selected_focused_holo
+com.example.testtemplate.R$drawable: int abc_tab_selected_holo
+com.example.testtemplate.R$drawable: int abc_tab_selected_pressed_holo
+com.example.testtemplate.R$drawable: int abc_tab_unselected_pressed_holo
+com.example.testtemplate.R$drawable: int abc_textfield_search_default_holo_dark
+com.example.testtemplate.R$drawable: int abc_textfield_search_default_holo_light
+com.example.testtemplate.R$drawable: int abc_textfield_search_right_default_holo_dark
+com.example.testtemplate.R$drawable: int abc_textfield_search_right_default_holo_light
+com.example.testtemplate.R$drawable: int abc_textfield_search_right_selected_holo_dark
+com.example.testtemplate.R$drawable: int abc_textfield_search_right_selected_holo_light
+com.example.testtemplate.R$drawable: int abc_textfield_search_selected_holo_dark
+com.example.testtemplate.R$drawable: int abc_textfield_search_selected_holo_light
+com.example.testtemplate.R$drawable: int abc_textfield_searchview_holo_dark
+com.example.testtemplate.R$drawable: int abc_textfield_searchview_holo_light
+com.example.testtemplate.R$drawable: int abc_textfield_searchview_right_holo_dark
+com.example.testtemplate.R$drawable: int abc_textfield_searchview_right_holo_light
 com.example.testtemplate.R$drawable: int background
 com.example.testtemplate.R$drawable: int def_image
 com.example.testtemplate.R$drawable: int err_image
@@ -686,47 +1705,422 @@ com.example.testtemplate.R$drawable: int img4
 com.example.testtemplate.R$drawable: int img5
 com.example.testtemplate.R$drawable: int img6
 com.example.testtemplate.R$drawable: int img7
+com.example.testtemplate.R$drawable: int text_bg_01
+com.example.testtemplate.R$drawable: int text_bg_02
+com.example.testtemplate.R$drawable: int welcome1
+com.example.testtemplate.R$drawable: int welcome2
 com.example.testtemplate.R$drawable: R$drawable()
 com.example.testtemplate.R$id
+com.example.testtemplate.R$id: int action_bar
+com.example.testtemplate.R$id: int action_bar_activity_content
+com.example.testtemplate.R$id: int action_bar_container
+com.example.testtemplate.R$id: int action_bar_overlay_layout
+com.example.testtemplate.R$id: int action_bar_root
+com.example.testtemplate.R$id: int action_bar_subtitle
+com.example.testtemplate.R$id: int action_bar_title
+com.example.testtemplate.R$id: int action_context_bar
+com.example.testtemplate.R$id: int action_menu_divider
+com.example.testtemplate.R$id: int action_menu_presenter
 com.example.testtemplate.R$id: int action_mode1
 com.example.testtemplate.R$id: int action_mode2
+com.example.testtemplate.R$id: int action_mode_close_button
 com.example.testtemplate.R$id: int action_settings
+com.example.testtemplate.R$id: int activity_chooser_view_content
+com.example.testtemplate.R$id: int always
+com.example.testtemplate.R$id: int beginning
 com.example.testtemplate.R$id: int btn_01
 com.example.testtemplate.R$id: int btn_02
 com.example.testtemplate.R$id: int btn_03
 com.example.testtemplate.R$id: int btn_04
+com.example.testtemplate.R$id: int btn_show_type1
+com.example.testtemplate.R$id: int btn_show_type2
+com.example.testtemplate.R$id: int checkbox
+com.example.testtemplate.R$id: int collapseActionView
 com.example.testtemplate.R$id: int container
+com.example.testtemplate.R$id: int default_activity_button
+com.example.testtemplate.R$id: int dialog
+com.example.testtemplate.R$id: int disableHome
+com.example.testtemplate.R$id: int dropdown
+com.example.testtemplate.R$id: int edit_query
+com.example.testtemplate.R$id: int end
+com.example.testtemplate.R$id: int expand_activities_button
+com.example.testtemplate.R$id: int expanded_menu
 com.example.testtemplate.R$id: int gv_test
+com.example.testtemplate.R$id: int home
+com.example.testtemplate.R$id: int homeAsUp
+com.example.testtemplate.R$id: int icon
+com.example.testtemplate.R$id: int ifRoom
+com.example.testtemplate.R$id: int image
 com.example.testtemplate.R$id: int img_test
 com.example.testtemplate.R$id: int img_viewpage
+com.example.testtemplate.R$id: int listMode
+com.example.testtemplate.R$id: int list_item
 com.example.testtemplate.R$id: int ll_bottom
+com.example.testtemplate.R$id: int middle
+com.example.testtemplate.R$id: int never
+com.example.testtemplate.R$id: int none
+com.example.testtemplate.R$id: int normal
 com.example.testtemplate.R$id: int pager
+com.example.testtemplate.R$id: int progress_circular
+com.example.testtemplate.R$id: int progress_horizontal
+com.example.testtemplate.R$id: int radio
 com.example.testtemplate.R$id: int rl_item
+com.example.testtemplate.R$id: int rl_txt_bg
+com.example.testtemplate.R$id: int search_badge
+com.example.testtemplate.R$id: int search_bar
+com.example.testtemplate.R$id: int search_button
+com.example.testtemplate.R$id: int search_close_btn
+com.example.testtemplate.R$id: int search_edit_frame
+com.example.testtemplate.R$id: int search_go_btn
+com.example.testtemplate.R$id: int search_mag_icon
+com.example.testtemplate.R$id: int search_plate
+com.example.testtemplate.R$id: int search_src_text
+com.example.testtemplate.R$id: int search_voice_btn
+com.example.testtemplate.R$id: int shortcut
+com.example.testtemplate.R$id: int showCustom
+com.example.testtemplate.R$id: int showHome
+com.example.testtemplate.R$id: int showTitle
+com.example.testtemplate.R$id: int split_action_bar
+com.example.testtemplate.R$id: int submit_area
+com.example.testtemplate.R$id: int tabMode
+com.example.testtemplate.R$id: int title
+com.example.testtemplate.R$id: int top_action_bar
 com.example.testtemplate.R$id: int tv_item
+com.example.testtemplate.R$id: int up
+com.example.testtemplate.R$id: int useLogo
+com.example.testtemplate.R$id: int withText
 com.example.testtemplate.R$id: R$id()
+com.example.testtemplate.R$integer
+com.example.testtemplate.R$integer: int abc_max_action_buttons
+com.example.testtemplate.R$integer: R$integer()
 com.example.testtemplate.R$layout
+com.example.testtemplate.R$layout: int abc_action_bar_decor
+com.example.testtemplate.R$layout: int abc_action_bar_decor_include
+com.example.testtemplate.R$layout: int abc_action_bar_decor_overlay
+com.example.testtemplate.R$layout: int abc_action_bar_home
+com.example.testtemplate.R$layout: int abc_action_bar_tab
+com.example.testtemplate.R$layout: int abc_action_bar_tabbar
+com.example.testtemplate.R$layout: int abc_action_bar_title_item
+com.example.testtemplate.R$layout: int abc_action_bar_view_list_nav_layout
+com.example.testtemplate.R$layout: int abc_action_menu_item_layout
+com.example.testtemplate.R$layout: int abc_action_menu_layout
+com.example.testtemplate.R$layout: int abc_action_mode_bar
+com.example.testtemplate.R$layout: int abc_action_mode_close_item
+com.example.testtemplate.R$layout: int abc_activity_chooser_view
+com.example.testtemplate.R$layout: int abc_activity_chooser_view_include
+com.example.testtemplate.R$layout: int abc_activity_chooser_view_list_item
+com.example.testtemplate.R$layout: int abc_expanded_menu_layout
+com.example.testtemplate.R$layout: int abc_list_menu_item_checkbox
+com.example.testtemplate.R$layout: int abc_list_menu_item_icon
+com.example.testtemplate.R$layout: int abc_list_menu_item_layout
+com.example.testtemplate.R$layout: int abc_list_menu_item_radio
+com.example.testtemplate.R$layout: int abc_popup_menu_item_layout
+com.example.testtemplate.R$layout: int abc_search_dropdown_item_icons_2line
+com.example.testtemplate.R$layout: int abc_search_view
 com.example.testtemplate.R$layout: int activity_main
 com.example.testtemplate.R$layout: int activity_main_type
+com.example.testtemplate.R$layout: int activity_start
 com.example.testtemplate.R$layout: int fragment_main
 com.example.testtemplate.R$layout: int fragment_main_type
-com.example.testtemplate.R$layout: int list_item
-com.example.testtemplate.R$layout: int list_item_1
-com.example.testtemplate.R$layout: int type2_list_item
-com.example.testtemplate.R$layout: int type2_list_item_1
+com.example.testtemplate.R$layout: int fragment_start
+com.example.testtemplate.R$layout: int support_simple_spinner_dropdown_item
+com.example.testtemplate.R$layout: int type1_list_item_01
+com.example.testtemplate.R$layout: int type1_list_item_02
+com.example.testtemplate.R$layout: int type2_list_item_0
+com.example.testtemplate.R$layout: int type2_list_item_01
+com.example.testtemplate.R$layout: int type2_list_item_02
 com.example.testtemplate.R$layout: int viewpager_item
 com.example.testtemplate.R$layout: R$layout()
 com.example.testtemplate.R$menu
 com.example.testtemplate.R$menu: int main
 com.example.testtemplate.R$menu: int main_type
+com.example.testtemplate.R$menu: int start
 com.example.testtemplate.R$menu: R$menu()
 com.example.testtemplate.R$string
+com.example.testtemplate.R$string: int abc_action_bar_home_description
+com.example.testtemplate.R$string: int abc_action_bar_up_description
+com.example.testtemplate.R$string: int abc_action_menu_overflow_description
+com.example.testtemplate.R$string: int abc_action_mode_done
+com.example.testtemplate.R$string: int abc_activity_chooser_view_see_all
+com.example.testtemplate.R$string: int abc_activitychooserview_choose_application
+com.example.testtemplate.R$string: int abc_searchview_description_clear
+com.example.testtemplate.R$string: int abc_searchview_description_query
+com.example.testtemplate.R$string: int abc_searchview_description_search
+com.example.testtemplate.R$string: int abc_searchview_description_submit
+com.example.testtemplate.R$string: int abc_searchview_description_voice
+com.example.testtemplate.R$string: int abc_shareactionprovider_share_with
+com.example.testtemplate.R$string: int abc_shareactionprovider_share_with_application
+com.example.testtemplate.R$string: int action_example
 com.example.testtemplate.R$string: int action_settings
 com.example.testtemplate.R$string: int app_name
 com.example.testtemplate.R$string: int hello_world
+com.example.testtemplate.R$string: int navigation_drawer_close
+com.example.testtemplate.R$string: int navigation_drawer_open
 com.example.testtemplate.R$string: int title_activity_main_type
+com.example.testtemplate.R$string: int title_activity_start
+com.example.testtemplate.R$string: int title_section1
+com.example.testtemplate.R$string: int title_section2
+com.example.testtemplate.R$string: int title_section3
 com.example.testtemplate.R$string: R$string()
 com.example.testtemplate.R$style
 com.example.testtemplate.R$style: int AppBaseTheme
 com.example.testtemplate.R$style: int AppTheme
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Base_CompactMenu_Dialog
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Base_SearchResult
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Base_SearchResult_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Base_SearchResult_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Base_Widget_PopupMenu_Large
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Base_Widget_PopupMenu_Small
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Base_SearchResult
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Base_SearchResult_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_SearchResult_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_SearchResult_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_SearchResult_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_SearchResult_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Menu
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Menu
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Title
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_Base_DropDownItem
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_DropDownItem
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_PopupMenu_Large
+com.example.testtemplate.R$style: int TextAppearance_AppCompat_Widget_PopupMenu_Small
+com.example.testtemplate.R$style: int TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item
+com.example.testtemplate.R$style: int TextAppearance_Widget_AppCompat_ExpandedMenu_Item
+com.example.testtemplate.R$style: int Theme_AppCompat
+com.example.testtemplate.R$style: int Theme_AppCompat_Base_CompactMenu
+com.example.testtemplate.R$style: int Theme_AppCompat_Base_CompactMenu_Dialog
+com.example.testtemplate.R$style: int Theme_AppCompat_CompactMenu
+com.example.testtemplate.R$style: int Theme_AppCompat_CompactMenu_Dialog
+com.example.testtemplate.R$style: int Theme_AppCompat_Light
+com.example.testtemplate.R$style: int Theme_AppCompat_Light_DarkActionBar
+com.example.testtemplate.R$style: int Theme_Base
+com.example.testtemplate.R$style: int Theme_Base_AppCompat
+com.example.testtemplate.R$style: int Theme_Base_AppCompat_Light
+com.example.testtemplate.R$style: int Theme_Base_AppCompat_Light_DarkActionBar
+com.example.testtemplate.R$style: int Theme_Base_Light
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionBar
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionBar_Solid
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionBar_TabBar
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionBar_TabText
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionBar_TabView
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionButton
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionButton_CloseMode
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionButton_Overflow
+com.example.testtemplate.R$style: int Widget_AppCompat_ActionMode
+com.example.testtemplate.R$style: int Widget_AppCompat_ActivityChooserView
+com.example.testtemplate.R$style: int Widget_AppCompat_AutoCompleteTextView
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionBar_Solid
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionBar_TabBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionBar_TabText
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionBar_TabView
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionButton
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionButton_CloseMode
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionButton_Overflow
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActionMode
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ActivityChooserView
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_AutoCompleteTextView
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_DropDownItem_Spinner
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ListPopupWindow
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ListView_DropDown
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ListView_Menu
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_PopupMenu
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ProgressBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_ProgressBar_Horizontal
+com.example.testtemplate.R$style: int Widget_AppCompat_Base_Spinner
+com.example.testtemplate.R$style: int Widget_AppCompat_DropDownItem_Spinner
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_Solid
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_Solid_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_TabBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_TabBar_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_TabText
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_TabText_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_TabView
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionBar_TabView_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionButton
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionButton_CloseMode
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionButton_Overflow
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActionMode_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ActivityChooserView
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_AutoCompleteTextView
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_Solid
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabBar
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabText
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabView
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionButton
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionButton_CloseMode
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionButton_Overflow
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActionMode_Inverse
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ActivityChooserView
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_AutoCompleteTextView
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_DropDownItem_Spinner
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ListPopupWindow
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_ListView_DropDown
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_PopupMenu
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Base_Spinner
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_DropDownItem_Spinner
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ListPopupWindow
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_ListView_DropDown
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_PopupMenu
+com.example.testtemplate.R$style: int Widget_AppCompat_Light_Spinner_DropDown_ActionBar
+com.example.testtemplate.R$style: int Widget_AppCompat_ListPopupWindow
+com.example.testtemplate.R$style: int Widget_AppCompat_ListView_DropDown
+com.example.testtemplate.R$style: int Widget_AppCompat_ListView_Menu
+com.example.testtemplate.R$style: int Widget_AppCompat_PopupMenu
+com.example.testtemplate.R$style: int Widget_AppCompat_ProgressBar
+com.example.testtemplate.R$style: int Widget_AppCompat_ProgressBar_Horizontal
+com.example.testtemplate.R$style: int Widget_AppCompat_Spinner_DropDown_ActionBar
 com.example.testtemplate.R$style: R$style()
-com.example.testtemplate.Type2GridBean
+com.example.testtemplate.R$styleable
+com.example.testtemplate.R$styleable: int[] ActionBar
+com.example.testtemplate.R$styleable: int ActionBar_background
+com.example.testtemplate.R$styleable: int ActionBar_backgroundSplit
+com.example.testtemplate.R$styleable: int ActionBar_backgroundStacked
+com.example.testtemplate.R$styleable: int ActionBar_customNavigationLayout
+com.example.testtemplate.R$styleable: int ActionBar_displayOptions
+com.example.testtemplate.R$styleable: int ActionBar_divider
+com.example.testtemplate.R$styleable: int ActionBar_height
+com.example.testtemplate.R$styleable: int ActionBar_homeLayout
+com.example.testtemplate.R$styleable: int ActionBar_icon
+com.example.testtemplate.R$styleable: int ActionBar_indeterminateProgressStyle
+com.example.testtemplate.R$styleable: int ActionBar_itemPadding
+com.example.testtemplate.R$styleable: int ActionBar_logo
+com.example.testtemplate.R$styleable: int ActionBar_navigationMode
+com.example.testtemplate.R$styleable: int ActionBar_progressBarPadding
+com.example.testtemplate.R$styleable: int ActionBar_progressBarStyle
+com.example.testtemplate.R$styleable: int ActionBar_subtitle
+com.example.testtemplate.R$styleable: int ActionBar_subtitleTextStyle
+com.example.testtemplate.R$styleable: int ActionBar_title
+com.example.testtemplate.R$styleable: int ActionBar_titleTextStyle
+com.example.testtemplate.R$styleable: int[] ActionBarLayout
+com.example.testtemplate.R$styleable: int ActionBarLayout_android_layout_gravity
+com.example.testtemplate.R$styleable: int[] ActionBarWindow
+com.example.testtemplate.R$styleable: int ActionBarWindow_windowActionBar
+com.example.testtemplate.R$styleable: int ActionBarWindow_windowActionBarOverlay
+com.example.testtemplate.R$styleable: int ActionBarWindow_windowSplitActionBar
+com.example.testtemplate.R$styleable: int[] ActionMenuItemView
+com.example.testtemplate.R$styleable: int ActionMenuItemView_android_minWidth
+com.example.testtemplate.R$styleable: int[] ActionMenuView
+com.example.testtemplate.R$styleable: int[] ActionMode
+com.example.testtemplate.R$styleable: int ActionMode_background
+com.example.testtemplate.R$styleable: int ActionMode_backgroundSplit
+com.example.testtemplate.R$styleable: int ActionMode_height
+com.example.testtemplate.R$styleable: int ActionMode_subtitleTextStyle
+com.example.testtemplate.R$styleable: int ActionMode_titleTextStyle
+com.example.testtemplate.R$styleable: int[] ActivityChooserView
+com.example.testtemplate.R$styleable: int ActivityChooserView_expandActivityOverflowButtonDrawable
+com.example.testtemplate.R$styleable: int ActivityChooserView_initialActivityCount
+com.example.testtemplate.R$styleable: int[] CompatTextView
+com.example.testtemplate.R$styleable: int CompatTextView_textAllCaps
+com.example.testtemplate.R$styleable: int[] LinearLayoutICS
+com.example.testtemplate.R$styleable: int LinearLayoutICS_divider
+com.example.testtemplate.R$styleable: int LinearLayoutICS_dividerPadding
+com.example.testtemplate.R$styleable: int LinearLayoutICS_showDividers
+com.example.testtemplate.R$styleable: int[] MenuGroup
+com.example.testtemplate.R$styleable: int MenuGroup_android_checkableBehavior
+com.example.testtemplate.R$styleable: int MenuGroup_android_enabled
+com.example.testtemplate.R$styleable: int MenuGroup_android_id
+com.example.testtemplate.R$styleable: int MenuGroup_android_menuCategory
+com.example.testtemplate.R$styleable: int MenuGroup_android_orderInCategory
+com.example.testtemplate.R$styleable: int MenuGroup_android_visible
+com.example.testtemplate.R$styleable: int[] MenuItem
+com.example.testtemplate.R$styleable: int MenuItem_actionLayout
+com.example.testtemplate.R$styleable: int MenuItem_actionProviderClass
+com.example.testtemplate.R$styleable: int MenuItem_actionViewClass
+com.example.testtemplate.R$styleable: int MenuItem_android_alphabeticShortcut
+com.example.testtemplate.R$styleable: int MenuItem_android_checkable
+com.example.testtemplate.R$styleable: int MenuItem_android_checked
+com.example.testtemplate.R$styleable: int MenuItem_android_enabled
+com.example.testtemplate.R$styleable: int MenuItem_android_icon
+com.example.testtemplate.R$styleable: int MenuItem_android_id
+com.example.testtemplate.R$styleable: int MenuItem_android_menuCategory
+com.example.testtemplate.R$styleable: int MenuItem_android_numericShortcut
+com.example.testtemplate.R$styleable: int MenuItem_android_onClick
+com.example.testtemplate.R$styleable: int MenuItem_android_orderInCategory
+com.example.testtemplate.R$styleable: int MenuItem_android_title
+com.example.testtemplate.R$styleable: int MenuItem_android_titleCondensed
+com.example.testtemplate.R$styleable: int MenuItem_android_visible
+com.example.testtemplate.R$styleable: int MenuItem_showAsAction
+com.example.testtemplate.R$styleable: int[] MenuView
+com.example.testtemplate.R$styleable: int MenuView_android_headerBackground
+com.example.testtemplate.R$styleable: int MenuView_android_horizontalDivider
+com.example.testtemplate.R$styleable: int MenuView_android_itemBackground
+com.example.testtemplate.R$styleable: int MenuView_android_itemIconDisabledAlpha
+com.example.testtemplate.R$styleable: int MenuView_android_itemTextAppearance
+com.example.testtemplate.R$styleable: int MenuView_android_preserveIconSpacing
+com.example.testtemplate.R$styleable: int MenuView_android_verticalDivider
+com.example.testtemplate.R$styleable: int MenuView_android_windowAnimationStyle
+com.example.testtemplate.R$styleable: int[] SearchView
+com.example.testtemplate.R$styleable: int SearchView_android_imeOptions
+com.example.testtemplate.R$styleable: int SearchView_android_inputType
+com.example.testtemplate.R$styleable: int SearchView_android_maxWidth
+com.example.testtemplate.R$styleable: int SearchView_iconifiedByDefault
+com.example.testtemplate.R$styleable: int SearchView_queryHint
+com.example.testtemplate.R$styleable: int[] Spinner
+com.example.testtemplate.R$styleable: int Spinner_android_dropDownHorizontalOffset
+com.example.testtemplate.R$styleable: int Spinner_android_dropDownSelector
+com.example.testtemplate.R$styleable: int Spinner_android_dropDownVerticalOffset
+com.example.testtemplate.R$styleable: int Spinner_android_dropDownWidth
+com.example.testtemplate.R$styleable: int Spinner_android_gravity
+com.example.testtemplate.R$styleable: int Spinner_android_popupBackground
+com.example.testtemplate.R$styleable: int Spinner_disableChildrenWhenDisabled
+com.example.testtemplate.R$styleable: int Spinner_popupPromptView
+com.example.testtemplate.R$styleable: int Spinner_prompt
+com.example.testtemplate.R$styleable: int Spinner_spinnerMode
+com.example.testtemplate.R$styleable: int[] Theme
+com.example.testtemplate.R$styleable: int Theme_actionDropDownStyle
+com.example.testtemplate.R$styleable: int Theme_dropdownListPreferredItemHeight
+com.example.testtemplate.R$styleable: int Theme_listChoiceBackgroundIndicator
+com.example.testtemplate.R$styleable: int Theme_panelMenuListTheme
+com.example.testtemplate.R$styleable: int Theme_panelMenuListWidth
+com.example.testtemplate.R$styleable: int Theme_popupMenuStyle
+com.example.testtemplate.R$styleable: int[] View
+com.example.testtemplate.R$styleable: int View_android_focusable
+com.example.testtemplate.R$styleable: int View_paddingEnd
+com.example.testtemplate.R$styleable: int View_paddingStart
+com.example.testtemplate.R$styleable: R$styleable()
+com.example.testtemplate.StartActivity
+com.example.testtemplate.StartActivity: StartActivity()
+com.example.testtemplate.StartActivity$PlaceholderFragment
+com.example.testtemplate.StartActivity$PlaceholderFragment: android.widget.Button btn_show_type1
+com.example.testtemplate.StartActivity$PlaceholderFragment: android.widget.Button btn_show_type2
+com.example.testtemplate.StartActivity$PlaceholderFragment$$ViewInjector
+com.example.testtemplate.StartActivity$PlaceholderFragment$$ViewInjector: StartActivity$PlaceholderFragment$$ViewInjector()
+com.example.testtemplate.StartActivity$PlaceholderFragment$$ViewInjector: void inject(butterknife.ButterKnife$Finder,com.example.testtemplate.StartActivity$PlaceholderFragment,java.lang.Object)
+com.example.testtemplate.StartActivity$PlaceholderFragment$$ViewInjector: void reset(com.example.testtemplate.StartActivity$PlaceholderFragment)
+com.example.testtemplate.StartActivity$PlaceholderFragment$$ViewInjector$1
+com.example.testtemplate.StartActivity$PlaceholderFragment$$ViewInjector$2
+com.example.testtemplate.bean.GridBean
+com.example.testtemplate.bean.Type2GridBean
+com.example.testtemplate.bean.Type2GridBean$ViewType
+com.example.testtemplate.system.MeasureUtil
+com.example.testtemplate.system.MySingletonVolley
+com.example.testtemplate.system.MySingletonVolley$1
+com.example.testtemplate.system.ResourceTools
+com.example.testtemplate.system.ResourceTools$ResourceTypeEnum

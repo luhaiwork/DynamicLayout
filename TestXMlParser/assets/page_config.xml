@@ -6,7 +6,7 @@
     </activity>
     <fragment name="MainTypeFragment">
         <mode>1</mode>
-        <gridCount>1</gridCount>
+        <gridCount>2</gridCount>
         <viewpager-items>
                 <imageurl>welcome1</imageurl>
                 <imageurl>welcome2</imageurl>
@@ -24,19 +24,19 @@
             </item>
             <item>
                 <imageurl>http://s0.hao123img.com/res/img/logo/bbqn2-24.png</imageurl>
-				<imageHeight>80</imageHeight>
-                <imageWidth>80</imageWidth>
+				<imageHeight>100</imageHeight>
+                <imageWidth>100</imageWidth>
                 <title>title2</title>
-                <style>1</style>
+                <style>0</style>
                 <background>background</background>
                 <text_bg>text_bg_02</text_bg>
             </item>
             <item>
                 <imageurl>http://s1.jikexueyuan.com/v3/static/images/common/logo.png</imageurl>
-				<imageHeight>80</imageHeight>
-                <imageWidth>80</imageWidth>
+				<imageHeight>100</imageHeight>
+                <imageWidth>100</imageWidth>
                 <title>title3</title>
-                <style>2</style>
+                <style>0</style>
                  <background>background</background>
                  <text_bg>text_bg_01</text_bg>
             </item>
@@ -46,10 +46,10 @@
                    http://img.iknow.bdimg.com/jctuijian/0515/home-earth.jpg?t=1400037629
                     ]]>
                     </imageurl>
-                <imageHeight>80</imageHeight>
-                <imageWidth>80</imageWidth>
+                <imageHeight>100</imageHeight>
+                <imageWidth>100</imageWidth>
                 <title>中文title4</title>
-                <style>3</style>
+                <style>0</style>
                  <background>background</background>
                  <text_bg>text_bg_01</text_bg>
             </item>

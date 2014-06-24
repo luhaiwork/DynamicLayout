@@ -1,22 +1,30 @@
 package com.example.testtemplate;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainTypeActivity extends FragmentActivity {
-
+	private static String KEY_XML_NAME="";
+	/**xml 文件名称*/
+	public String xmlName="";
+	public static Intent newIntent(Activity  act,String xmlName){
+		Intent intent = new Intent(act,MainTypeActivity.class);
+		intent.putExtra(KEY_XML_NAME, xmlName);
+		return intent;
+	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_type);
-
 		if (savedInstanceState == null) {
 			getSupportFragmentManager().beginTransaction()
 					.add(R.id.container, new MainTypeFragment()).commit();
 		}
+		xmlName=getIntent().getStringExtra(KEY_XML_NAME);
 	}
 
 	@Override
