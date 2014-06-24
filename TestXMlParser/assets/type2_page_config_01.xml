@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <grid_count>1</grid_count>
+    <grid-margin-left>30</grid-margin-left>
+    <grid-margin-top>0</grid-margin-top>
+    <grid-width>150</grid-width>
+    <alignParentBottom>1</alignParentBottom>
+    <grid-items>
+        <item>
+            <style>1</style>
+            <image>img1</image>
+            <title>title-img1</title>
+        </item>
+        <item>
+            <style>1</style>
+            <image>img2</image>
+            <title>title-img2</title>
+        </item>
+        <item>
+            <style>1</style>
+            <image>img3</image>
+            <title>title-img3</title>
+        </item>
+        <item>
+            <style>1</style>
+            <image>img4</image>
+            <title>title-img4</title>
+        </item>
+        <item>
+            <style>1</style>
+            <image>img5</image>
+            <title>title-img5</title>
+        </item>
+    </grid-items>
+</config>
