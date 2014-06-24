@@ -20,7 +20,7 @@
                 <style>0</style>
                 <background>background</background>
                 <text_background></text_background>
-                <text_bg>text_bg_01</text_bg>
+                <text_bg>text_bg_02</text_bg>
             </item>
             <item>
                 <imageurl>http://s0.hao123img.com/res/img/logo/bbqn2-24.png</imageurl>
@@ -38,7 +38,7 @@
                 <title>title3</title>
                 <style>0</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg>text_bg_02</text_bg>
             </item>
             <item>
                 <imageurl>
@@ -51,7 +51,7 @@
                 <title>中文title4</title>
                 <style>0</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg>text_bg_02</text_bg>
             </item>
              <item>
                 <imageurl>
@@ -64,7 +64,7 @@
                 <title>中文title4</title>
                 <style>0</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg>text_bg_02</text_bg>
             </item>
              <item>
                 <imageurl>
@@ -77,7 +77,7 @@
                 <title>中文title4</title>
                 <style>0</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg>text_bg_02</text_bg>
             </item>
         </grid-items>
     </fragment>

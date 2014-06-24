@@ -13,11 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="200dp" />
 
-    <GridView
-        android:id="@+id/gv_test"
-        android:layout_width="wrap_content"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/pager"  >
-    </GridView>
+        android:layout_below="@id/pager" >
+
+        <GridView
+            android:id="@+id/gv_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </GridView>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img2" android:layout_gravity="center" android:visibility="gone"/>
+    </FrameLayout>
 
 </RelativeLayout>

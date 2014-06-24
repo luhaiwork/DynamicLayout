@@ -20,7 +20,8 @@
                 <style>1</style>
                 <background>background</background>
                 <text_background></text_background>
-                <text_bg>text_bg_01</text_bg>
+                <text_bg></text_bg>
+                <textViewPaddingRight>25</textViewPaddingRight>
             </item>
             <item>
                 <imageurl>http://s0.hao123img.com/res/img/logo/bbqn2-24.png</imageurl>
@@ -29,7 +30,8 @@
                 <title>title2</title>
                 <style>1</style>
                 <background>background</background>
-                <text_bg>text_bg_02</text_bg>
+                <text_bg></text_bg>
+                <textViewPaddingRight>25</textViewPaddingRight>
             </item>
             <item>
                 <imageurl>http://s1.jikexueyuan.com/v3/static/images/common/logo.png</imageurl>
@@ -38,7 +40,8 @@
                 <title>title3</title>
                 <style>1</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg></text_bg>
+                 <textViewPaddingRight>25</textViewPaddingRight>
             </item>
             <item>
                 <imageurl>
@@ -51,7 +54,8 @@
                 <title>中文title4</title>
                 <style>1</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg></text_bg>
+                 <textViewPaddingRight>25</textViewPaddingRight>
             </item>
              <item>
                 <imageurl>
@@ -64,7 +68,8 @@
                 <title>中文title4</title>
                 <style>1</style>
                  <background>background</background>
-                 <text_bg>text_bg_01</text_bg>
+                 <text_bg></text_bg>
+                 <textViewPaddingRight>25</textViewPaddingRight>
             </item>
              
         </grid-items>

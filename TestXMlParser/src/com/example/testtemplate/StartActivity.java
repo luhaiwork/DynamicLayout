@@ -1,9 +1,5 @@
 package com.example.testtemplate;
 
-import butterknife.ButterKnife;
-import butterknife.InjectView;
-import butterknife.OnClick;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,9 +8,11 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import butterknife.OnClick;
 
 public class StartActivity extends FragmentActivity {
 	@Override
@@ -97,6 +95,10 @@ public class StartActivity extends FragmentActivity {
 		@OnClick(R.id.btn_show_type5)
 		public void btn_show_type5(Button btn_show_type5){
 			getActivity().startActivity(MainTypeActivity.newIntent(getActivity(), "page_config_3.xml"));
+		}
+		@OnClick(R.id.btn_show_type6)
+		public void btn_show_type6(Button btn_show_type6){
+			getActivity().startActivity(MainTypeActivity.newIntent(getActivity(), "page_config_4.xml"));
 		}
 
 	}

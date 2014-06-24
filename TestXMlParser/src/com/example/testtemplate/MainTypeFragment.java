@@ -68,8 +68,8 @@ public class MainTypeFragment extends Fragment {
 		AssetManager asset = getActivity().getAssets();
 		InputStream input = null;
 		try {
-//			input = asset.open("page_config.xml");
-			input = asset.open(((MainTypeActivity)getActivity()).xmlName);
+			// input = asset.open("page_config.xml");
+			input = asset.open(((MainTypeActivity) getActivity()).xmlName);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -78,15 +78,15 @@ public class MainTypeFragment extends Fragment {
 
 	private InputStream localDataXMLInputStream = null;
 	private int gridCount = 1;
-	private int horizontalSpace=0;
-	private int verticalSpace=0;
-	private  List<String> viewPagerUrls=null;
+	private int horizontalSpace = 0;
+	private int verticalSpace = 0;
+	private List<String> viewPagerUrls = null;
 
 	/**
 	 */
 	private void initConfigData() {
 		localDataXMLInputStream = getLocalDataXMLInputStream();
-		viewPagerUrls=new ArrayList<String>();
+		viewPagerUrls = new ArrayList<String>();
 		RootElement root = new RootElement("config");
 		Element childActivity = root.getChild("fragment");
 		Element elViewpagerItem = childActivity.getChild("viewpager-items");
@@ -112,8 +112,10 @@ public class MainTypeFragment extends Fragment {
 		elGridItems.setStartElementListener(new StartElementListener() {
 			@Override
 			public void start(Attributes attributes) {
-				horizontalSpace=Integer.parseInt(attributes.getValue("horizontalSpace"));
-				verticalSpace=Integer.parseInt(attributes.getValue("verticalSpace"));
+				horizontalSpace = Integer.parseInt(attributes
+						.getValue("horizontalSpace"));
+				verticalSpace = Integer.parseInt(attributes
+						.getValue("verticalSpace"));
 			}
 		});
 		datalist = new ArrayList<Type2GridBean>();
@@ -179,6 +181,16 @@ public class MainTypeFragment extends Fragment {
 										ResourceTypeEnum.TYPE_DRAWABLE, body));
 					}
 				});
+		Element elTextViewPaddingRight = elGridItem
+				.getChild("textViewPaddingRight");
+		elTextViewPaddingRight
+				.setEndTextElementListener(new EndTextElementListener() {
+					@Override
+					public void end(String body) {
+						type2GridBean.setTextViewPaddingRight(Integer
+								.parseInt(body));
+					}
+				});
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		try {
 			Xml.parse(localDataXMLInputStream, Xml.Encoding.UTF_8,
@@ -193,8 +205,11 @@ public class MainTypeFragment extends Fragment {
 		for (int i = 0; i < viewPagerUrls.size(); i++) {
 			View inflate = getActivity().getLayoutInflater().inflate(
 					R.layout.viewpager_item, null);
-			ImageView imgView = (ImageView) inflate.findViewById(R.id.img_viewpage);
-			imgView.setImageResource(ResourceTools.getResourceFromId(getActivity(), ResourceTypeEnum.TYPE_DRAWABLE, viewPagerUrls.get(i)));
+			ImageView imgView = (ImageView) inflate
+					.findViewById(R.id.img_viewpage);
+			imgView.setImageResource(ResourceTools.getResourceFromId(
+					getActivity(), ResourceTypeEnum.TYPE_DRAWABLE,
+					viewPagerUrls.get(i)));
 			pageViewList.add(inflate);
 		}
 		MyPageAdapter adp = new MyPageAdapter();
@@ -204,8 +219,10 @@ public class MainTypeFragment extends Fragment {
 	private void initGridView() {
 		gv_test.setAdapter(new MyAdapter());
 		gv_test.setNumColumns(gridCount);
-		gv_test.setVerticalSpacing(MeasureUtil.dpToPx(getActivity(), verticalSpace));
-		gv_test.setHorizontalSpacing(MeasureUtil.dpToPx(getActivity(), horizontalSpace));
+		gv_test.setVerticalSpacing(MeasureUtil.dpToPx(getActivity(),
+				verticalSpace));
+		gv_test.setHorizontalSpacing(MeasureUtil.dpToPx(getActivity(),
+				horizontalSpace));
 	}
 
 	@Override
@@ -261,6 +278,14 @@ public class MainTypeFragment extends Fragment {
 					.getTxtbackgroundResouce());
 			TextView tv_item = (TextView) view.findViewById(R.id.tv_item);
 			tv_item.setText(datalist.get(position).getText());
+			if (type2GridBean.getTextViewPaddingRight() != -1) {
+				tv_item.setPadding(
+						tv_item.getPaddingLeft(),
+						tv_item.getPaddingTop(),
+						MeasureUtil.dpToPx(getActivity(),
+								type2GridBean.getTextViewPaddingRight()),
+						tv_item.getPaddingBottom());
+			}
 			ImageView img_test = (ImageView) view.findViewById(R.id.img_test);
 			ImageLoader mImageLoader = MySingletonVolley.getInstance(
 					getActivity()).getImageLoader();
@@ -287,7 +312,8 @@ public class MainTypeFragment extends Fragment {
 						RelativeLayout.TRUE);
 				tvLayoutParam.addRule(RelativeLayout.CENTER_IN_PARENT, 0);
 				if (getItemViewType(position) == Type2GridBean.ViewType.VIEW_TYPE_01
-						.getViewType()||getItemViewType(position) == Type2GridBean.ViewType.VIEW_TYPE_03
+						.getViewType()
+						|| getItemViewType(position) == Type2GridBean.ViewType.VIEW_TYPE_03
 								.getViewType()) {
 					tvLayoutParam.addRule(RelativeLayout.ALIGN_PARENT_RIGHT,
 							RelativeLayout.TRUE);

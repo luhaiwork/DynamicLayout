@@ -35,6 +35,8 @@ public class Type2GridBean implements Cloneable {
 	private int backgroundResouce;
 	/** 背景资源 */
 	private int txtbackgroundResouce;
+	/**文字距离右边距距离*/
+	private int textViewPaddingRight=-1;
 	/**图片宽度*/
 	private int imageWidth;
 	/**图片高度*/
@@ -103,6 +105,15 @@ public class Type2GridBean implements Cloneable {
 	public void setImageHeight(int imageHeight) {
 		this.imageHeight = imageHeight;
 	}
+
+	public int getTextViewPaddingRight() {
+		return textViewPaddingRight;
+	}
+
+	public void setTextViewPaddingRight(int textViewPaddingRight) {
+		this.textViewPaddingRight = textViewPaddingRight;
+	}
+	
 	
 
 }
