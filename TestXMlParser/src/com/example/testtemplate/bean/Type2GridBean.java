@@ -33,11 +33,11 @@ public class Type2GridBean implements Cloneable {
 	private String text;
 	private int viewType;
 	private int backgroundResouce;
-	/** ÎÄ±¾±³¾° */
+	/** èƒŒæ™¯èµ„æº */
 	private int txtbackgroundResouce;
-	/**Í¼Æ¬¿í¶È*/
+	/**å›¾ç‰‡å®½åº¦*/
 	private int imageWidth;
-	/**Í¼Æ¬¸ß¶È*/
+	/**å›¾ç‰‡é«˜åº¦*/
 	private int imageHeight;
 	public String getText() {
 		return text;

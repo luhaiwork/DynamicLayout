@@ -2,10 +2,11 @@ package com.example.testtemplate;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainTypeActivity extends Activity {
+public class MainTypeActivity extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -13,7 +14,7 @@ public class MainTypeActivity extends Activity {
 		setContentView(R.layout.activity_main_type);
 
 		if (savedInstanceState == null) {
-			getFragmentManager().beginTransaction()
+			getSupportFragmentManager().beginTransaction()
 					.add(R.id.container, new MainTypeFragment()).commit();
 		}
 	}

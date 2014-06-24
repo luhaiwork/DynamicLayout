@@ -13,7 +13,6 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import android.app.Fragment;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -21,6 +20,7 @@ import android.sax.Element;
 import android.sax.RootElement;
 import android.sax.StartElementListener;
 import android.sax.TextElementListener;
+import android.support.v4.app.Fragment;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.Xml;
@@ -151,21 +151,21 @@ public class PlaceholderFragment extends Fragment {
 			IOException {
 		testConfigRead = new MyPageConfig();
 		localDataXMLInputStream = getLocalDataXMLInputStream();
-		// ·½Ê½Ò»:Ê¹ÓÃ¹¤³§ÀàXmlPullParserFactory
+		// ï¿½ï¿½Ê½Ò»:Ê¹ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½XmlPullParserFactory
 		XmlPullParserFactory pullFactory = XmlPullParserFactory.newInstance();
 		XmlPullParser parser = pullFactory.newPullParser();
 		parser.setInput(localDataXMLInputStream, "UTF-8");
 		int eventType = parser.getEventType();
-		// Ö»Òª²»ÊÇÎÄµµ½áÊøÊÂ¼þ£¬¾ÍÒ»Ö±Ñ­»·
+		// Ö»Òªï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö±Ñ­ï¿½ï¿½
 		String actName = null;
 		while (eventType != XmlPullParser.END_DOCUMENT) {
 			String name = parser.getName();
 			switch (eventType) {
-			// ´¥·¢¿ªÊ¼ÎÄµµÊÂ¼þ
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½Äµï¿½ï¿½Â¼ï¿½
 			case XmlPullParser.START_DOCUMENT:
 
 				break;
-			// ´¥·¢¿ªÊ¼ÔªËØÊÂ¼þ
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Ôªï¿½ï¿½ï¿½Â¼ï¿½
 			case XmlPullParser.START_TAG:
 				if ("activity".equals(name)) {
 					for (int i = 0; i < parser.getAttributeCount(); i++) {
@@ -175,7 +175,7 @@ public class PlaceholderFragment extends Fragment {
 					}
 					Log.i("tag", "actName:" + actName);
 				}
-				// ½âÎötestpage µÄactÅäÖÃ
+				// ï¿½ï¿½ï¿½ï¿½testpage ï¿½ï¿½actï¿½ï¿½ï¿½ï¿½
 				if ("testpage".equals(actName) && "showMenu".equals(name)) {
 					String isShow = "";
 					for (int i = 0; i < parser.getAttributeCount(); i++) {
@@ -186,7 +186,7 @@ public class PlaceholderFragment extends Fragment {
 					testConfigRead.setShow(Boolean.parseBoolean(isShow));
 					Log.i("tag", "showMenu:" + isShow);
 				}
-				// ½âÎötestpage µÄactÅäÖÃ mode
+				// ï¿½ï¿½ï¿½ï¿½testpage ï¿½ï¿½actï¿½ï¿½ï¿½ï¿½ mode
 				if ("testpage".equals(actName) && "mode".equals(name)) {
 					String mode = "";
 					for (int i = 0; i < parser.getAttributeCount(); i++) {
@@ -201,7 +201,7 @@ public class PlaceholderFragment extends Fragment {
 			case XmlPullParser.TEXT:
 				Log.i("tag", "name:" + name + "text:" + parser.getText());
 				break;
-			// ´¥·¢½áÊøÔªËØÊÂ¼þ
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½Â¼ï¿½
 			case XmlPullParser.END_TAG:
 				if ("activity".equals(name)) {
 					actName = null;
@@ -250,7 +250,7 @@ public class PlaceholderFragment extends Fragment {
 	}
 
 	/**
-	 * Ìø¹ý
+	 * ï¿½ï¿½ï¿½
 	 * 
 	 * @param parser
 	 * @throws XmlPullParserException
@@ -299,27 +299,27 @@ public class PlaceholderFragment extends Fragment {
 	private void getMode1Data() {
 		datalist = new ArrayList<GridBean>();
 		GridBean bean1 = new GridBean();
-		bean1.setText("²âÊÔ±êÌâ");
+		bean1.setText("ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½");
 		bean1.setBackgroundColor(getResources().getColor(R.color.brown));
 		bean1.setDrawable(getResources().getDrawable(R.drawable.img1));
 		datalist.add(bean1);
 		GridBean bean2 = new GridBean();
-		bean2.setText("±êÌâsssssssss2");
+		bean2.setText("ï¿½ï¿½ï¿½ï¿½sssssssss2");
 		bean2.setBackgroundColor(getResources().getColor(R.color.black));
 		bean2.setDrawable(getResources().getDrawable(R.drawable.img2));
 		datalist.add(bean2);
 		GridBean bean3 = new GridBean();
-		bean3.setText("²»Í¬³¤¶ÈµÄ±êÌâ");
+		bean3.setText("ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ÈµÄ±ï¿½ï¿½ï¿½");
 		bean3.setBackgroundColor(getResources().getColor(R.color.red));
 		bean3.setDrawable(getResources().getDrawable(R.drawable.img3));
 		datalist.add(bean3);
 		GridBean bean4 = new GridBean();
-		bean4.setText("¶Ì");
+		bean4.setText("ï¿½ï¿½");
 		bean4.setBackgroundColor(getResources().getColor(R.color.gray));
 		bean4.setDrawable(getResources().getDrawable(R.drawable.img4));
 		datalist.add(bean4);
 		GridBean bean5 = new GridBean();
-		bean5.setText("¶Ì³¤³¤¶Ì°¡¶Ì£¬²âÊÔ·½Ê½À´¿´´ý¸£½¨Ê¡ÀÍ¶¯¾À·×Ê±¿´µ½ÁË¼¸·Ö¿ËÀïË¹¶à·ò");
+		bean5.setText("ï¿½Ì³ï¿½ï¿½ï¿½ï¿½Ì°ï¿½ï¿½Ì£ï¿½ï¿½ï¿½ï¿½Ô·ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½Í¶ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼ï¿½ï¿½Ö¿ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½");
 		bean5.setBackgroundColor(getResources().getColor(R.color.brown));
 		bean5.setDrawable(getResources().getDrawable(R.drawable.img5));
 		datalist.add(bean5);

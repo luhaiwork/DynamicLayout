@@ -1,14 +1,14 @@
 package com.example.testtemplate;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
-
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends Activity {
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
+public class MainActivity extends FragmentActivity {
 	private PlaceholderFragment placeHolderFragment;
 
 	@Override
@@ -17,8 +17,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		if (savedInstanceState == null) {
 			PlaceholderFragment placeholderFragment2 = new PlaceholderFragment();
-			getFragmentManager().beginTransaction()
-					.add(R.id.container, placeholderFragment2, "tag").commit();
+			getSupportFragmentManager().beginTransaction().add(R.id.container, placeholderFragment2, "tag");
 		}
 
 	}
@@ -32,7 +31,7 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		int id = item.getItemId();
-		placeHolderFragment = (PlaceholderFragment) getFragmentManager()
+		placeHolderFragment = (PlaceholderFragment) getSupportFragmentManager()
 				.findFragmentByTag("tag");
 		if (id == R.id.action_mode1) {
 			placeHolderFragment.testConfigRead.setMode(1);

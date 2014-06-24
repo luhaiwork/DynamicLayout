@@ -9,7 +9,6 @@ import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.Attributes;
 
-import android.app.Fragment;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.sax.Element;
@@ -18,6 +17,7 @@ import android.sax.EndTextElementListener;
 import android.sax.RootElement;
 import android.sax.StartElementListener;
 import android.sax.TextElementListener;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Xml;
@@ -76,16 +76,12 @@ public class MainTypeFragment extends Fragment {
 	}
 
 	private InputStream localDataXMLInputStream = null;
-	/** 表格列数 */
 	private int gridCount = 1;
-	/**grid 横向cell 间距*/
 	private int horizontalSpace=0;
-	/**grid 竖向cell 间距*/
 	private int verticalSpace=0;
 	private  List<String> viewPagerUrls=null;
 
 	/**
-	 * 初始化配置
 	 */
 	private void initConfigData() {
 		localDataXMLInputStream = getLocalDataXMLInputStream();
@@ -278,7 +274,7 @@ public class MainTypeFragment extends Fragment {
 			layoutParams.width = MeasureUtil.dpToPx(getActivity(),
 					type2GridBean.getImageWidth());
 			img_test.setLayoutParams(layoutParams);
-			// 要是非上下布局，调整下文字高度与图片高度相同
+			// 要锟角凤拷锟斤拷锟铰诧拷锟街ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷锟街高讹拷锟斤拷图片锟竭讹拷锟斤拷同
 			if (getItemViewType(position) != Type2GridBean.ViewType.VIEW_TYPE_0
 					.getViewType()) {
 				LayoutParams rlLayoutParams = rl_txt_bg.getLayoutParams();
@@ -323,19 +319,19 @@ public class MainTypeFragment extends Fragment {
 
 		@Override
 		public boolean isViewFromObject(View arg0, Object arg1) {
-			return arg0 == arg1;// 官方提示这样写
+			return arg0 == arg1;
 		}
 
 		@Override
 		public Object instantiateItem(ViewGroup container, int position) {
-			container.addView(pageViewList.get(position), 0);// 添加页卡
+			container.addView(pageViewList.get(position), 0);
 			return pageViewList.get(position);
 		}
 
 		@Override
 		public void destroyItem(ViewGroup container, int position, Object object) {
 			// super.destroyItem(container, position, object);
-			container.removeView(pageViewList.get(position));// 删除页卡
+			container.removeView(pageViewList.get(position));
 		}
 
 	}
