@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <activity name="testpage">
+        <showMenu isShow="false">ssss</showMenu>
+        <mode val="1"></mode>
+    </activity>
+    <fragment name="MainTypeFragment">
+        <mode>1</mode>
+        <gridCount>1</gridCount>
+        <viewpager-items>
+                <imageurl>welcome1</imageurl>
+                <imageurl>welcome2</imageurl>
+        </viewpager-items>
+        <grid-items horizontalSpace="0" verticalSpace="5">
+            <item>
+                <imageurl>http://www.baidu.com/img/bdlogo.gif</imageurl>
+                <imageHeight>30</imageHeight>
+                <imageWidth>30</imageWidth>
+                <title>title1</title>
+                <style>1</style>
+                <background>background</background>
+                <text_background></text_background>
+                <text_bg>text_bg_01</text_bg>
+            </item>
+            <item>
+                <imageurl>http://s0.hao123img.com/res/img/logo/bbqn2-24.png</imageurl>
+				<imageHeight>30</imageHeight>
+                <imageWidth>30</imageWidth>
+                <title>title2</title>
+                <style>1</style>
+                <background>background</background>
+                <text_bg>text_bg_02</text_bg>
+            </item>
+            <item>
+                <imageurl>http://s1.jikexueyuan.com/v3/static/images/common/logo.png</imageurl>
+				<imageHeight>30</imageHeight>
+                <imageWidth>30</imageWidth>
+                <title>title3</title>
+                <style>1</style>
+                 <background>background</background>
+                 <text_bg>text_bg_01</text_bg>
+            </item>
+            <item>
+                <imageurl>
+                    <![CDATA[
+                   http://img.iknow.bdimg.com/jctuijian/0515/home-earth.jpg?t=1400037629
+                    ]]>
+                    </imageurl>
+                <imageHeight>30</imageHeight>
+                <imageWidth>30</imageWidth>
+                <title>中文title4</title>
+                <style>1</style>
+                 <background>background</background>
+                 <text_bg>text_bg_01</text_bg>
+            </item>
+             <item>
+                <imageurl>
+                    <![CDATA[
+                   http://img.iknow.bdimg.com/jctuijian/0515/home-earth.jpg?t=1400037629
+                    ]]>
+                    </imageurl>
+                <imageHeight>30</imageHeight>
+                <imageWidth>30</imageWidth>
+                <title>中文title4</title>
+                <style>1</style>
+                 <background>background</background>
+                 <text_bg>text_bg_01</text_bg>
+            </item>
+             
+        </grid-items>
+    </fragment>
+</config>
